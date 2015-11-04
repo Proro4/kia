@@ -106,7 +106,7 @@ blockquote, q {
           color: white;
           text-transform: uppercase;
           font-size: 14px;
-          font-family: 'Arial';
+          font-family: 'Calibri   ';
           text-decoration: none;
           display: none;
           vertical-align: top; }
@@ -427,14 +427,14 @@ blockquote, q {
       text-transform: uppercase;
       color: #0072b4;
       font-size: 14px;
-      font-family: 'Corbel';
+      font-family: 'Calibri ';
       margin: 5px 0; }
       .contant-block .ad-contest-block a {
       font-size: 14px;
       text-transform: uppercase;
       margin: 5px 0; 
         color: #0072b4;
-        font-family: 'Corbel';
+        font-family: 'Calibri ';
         text-decoration: none; 
         transition: .3s all;}
         .contant-block .ad-contest-block a:hover{
@@ -458,11 +458,13 @@ blockquote, q {
       line-height: 50px;
       text-transform: uppercase;
       font-size: 18px;
+      border:1px solid white;
       font-family: 'Calibri';
       margin-bottom: 40px; }
     .contant-block .ad-contest-block .all-links:hover {
-      -webkit-box-shadow: 0px,0px,5px !important;
-      text-decoration: underline; 
+      color: #013c5e;
+      border:1px solid #013c5e;
+      background: url(../img/other/arrow-link.png) no-repeat 85% center, white;
     }
   .contant-block .contest-block {
     position: relative;
@@ -482,6 +484,7 @@ blockquote, q {
       line-height: 20px;
       background: #013c5e;
       color: white;
+      font-family: 'Calibri';
       float: left;
       margin-left: 10px; }
     .contant-block .contest-block>.contest-link {
@@ -496,14 +499,14 @@ blockquote, q {
       font-size: 14px;
       text-decoration: none;
       color: #0072b4;
-      font-family: 'Corbel'; }
+      font-family: 'Calibri '; }
        .contant-block .contest-block>a:hover{
         text-decoration: underline;
       }
     .contant-block .contest-block p {
       margin-top: 10px;
       margin-left: 10px;
-      font-family: 'Corbel';
+      font-family: 'Calibri ';
       font-size: 14px;
       float: left;
       width: 70%; }
@@ -563,9 +566,13 @@ blockquote, q {
         text-decoration: none; }
       .map-link .map-block .all-project a:hover {
         text-decoration: underline; }
+        .map-link .map-block .all-project:hover a{
+          color:black;
+        }
 
     .map-link .map-block .all-project:hover {
-      box-shadow: 0px 0px 5px white;
+      border: 3px solid white;
+      background: white;
     }
 
 .news-blocks {
@@ -599,10 +606,13 @@ blockquote, q {
         color: #013c5e;
         text-decoration: none; }
         .all-project:hover{
-          box-shadow: 0px 0px 5px;
-        }
-      .news-blocks .info-block .all-project a:hover {
-        text-decoration: underline; }
+          border: 3px solid #013c5e;
+      background:url(../img/other/big-arrow-menu.png) no-repeat 90% center, #013c5e; }
+      .all-project:hover a{ color:white; }
+      .news-blocks .info-block  .all-project:hover{
+          border: 3px solid #013c5e;
+      background:url(../img/other/big-arrow-menu.png) no-repeat 90% center, #013c5e; }
+     .news-blocks .info-block .all-project:hover a{ color:white; }
      .info {
       width: 100%;
       position: relative;
@@ -613,20 +623,20 @@ blockquote, q {
         float: left;
         display: inline-block;
         color: white;
-        font-family: 'arial';
+          font-family: 'Calibri ';
         font-size: 28px;
         line-height: 15px;
         text-align: center;
         padding: 10px 5px; }
         .info .block-12 span {
           font-size: 16px;
-          font-family: 'Corbel';
+          font-family: 'Calibri ';
           line-height: 0; }
        .info .info-link {
         transition:.3s all;
         text-transform: uppercase;
         font-size: 14px;
-        font-family: 'Corbel';
+        font-family: 'Calibri ';
         text-decoration: none;
         color: #117bb9;
         padding-right: 20px;
@@ -636,6 +646,7 @@ blockquote, q {
       text-decoration:underline;
      }
       .info p {
+          font-family: 'Calibri ';
         display: block;
         margin-top: 15px;
         padding-right: 20px; }
@@ -664,8 +675,10 @@ blockquote, q {
       font-family: 'Calibri';
       color: #013c5e;
       text-decoration: none; }
-    .success-story .all-project a:hover {
-      text-decoration: underline; }
+      .success-story .all-project:hover{
+          border: 3px solid #013c5e;
+      background:url(../img/other/big-arrow-menu.png) no-repeat 90% center, #013c5e; }
+     .success-story  .all-project:hover a{ color:white; }
   .success-story .story-title {
     font-family: 'MyriadPro-Semibold';
     font-size: 30px;
@@ -704,7 +717,7 @@ blockquote, q {
             left: 0;
             color: white;
             background: rgba(0, 0, 0, 0.7);
-            font-family: 'Corbel';
+            font-family: 'Calibri ';
             font-size: 14px;
             padding: 7px; }
             .success-story .carusel .all-carusel .carusel-block .carusel-item p:hover{
@@ -747,7 +760,7 @@ blockquote, q {
       text-transform: uppercase; }
     .footer .inform-block p {
       font-family: 'Calibri';
-      font-size: 18px;
+      font-size: 16px;
       color: #e6e9ed;
       line-height: 1.6; }
   .footer .Subscription {
@@ -775,15 +788,21 @@ blockquote, q {
       color: #dbdbdb;
       font-family: 'MyriadPro-Regular';
       border: 2px solid #dbdbdb;
-      background: none; }
+      background: none; 
+      transition:0.3s all;}
+       .footer .Subscription input[type="submit"]:hover{
+         color: #353535;
+          border: 2px solid #353535;
+      background: white; 
+       }
   .footer i {
     position: absolute;
-    top: 160px;
+    top: 130px;
     right: 50px;
     line-height: 1.7;
     font-style: normal;
     text-align: center;
-    font-family: 'MS Serif';
+    font-family: 'Calibri';
     color: #dbdbdb;
     font-size: 12px; }
 
@@ -795,7 +814,7 @@ blockquote, q {
   .block-links-one a {
     color: white;
     text-decoration: none;
-    font-family: 'arial';
+    font-family: 'Calibri';
     font-size: 18px;
     text-transform: uppercase;
     display: inline-block;
@@ -971,17 +990,5 @@ overflow: hidden;}
   text-transform: uppercase;
   font-size: 14px;
   text-decoration: none;
-
-}
-.lang-select{
-  color:white;
-  font-family: 'MyriadPro-Regular';
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  float: right;
-  margin-right: 15px;
-  position: relative;
-  top: 15px;
 
 }

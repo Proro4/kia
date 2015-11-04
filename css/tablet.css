@@ -1,7 +1,7 @@
 @media screen and (max-width: 1366px){
 	  .map-link:after {  background: url(../img/arrow-top2.png) 55%;}
-	.slider .invest-project{right: -5%; bottom: 50px;	}
-	.slider .slide-text{	left: -5%;	bottom: 50px;	}
+	.slider .invest-project{right: -5%; bottom: 80px;	}
+	.slider .slide-text{	left: -5%;	bottom: 155px;	}
 	.arrow-to-top{	right: 0 !important;	bottom: 0 !important;}
 	.block-links-four,.block-links-three,.block-links-two,.block-links-one{width: 55px;}
 	.block-links-one a{position: relative; right: 20px;}
@@ -115,7 +115,6 @@
 }
 
 @media screen and (max-width: 720px){
-	.lang{display: none;}
 	.tablet{display: block;       padding-left: 10px;}
 	.menu-head-popup{margin-top: 33px;}
 	.news-blocks .info-block .info{margin-bottom: 15px;}
@@ -156,7 +155,7 @@
    	position: relative; left: 10px; width: 80%; height: 25px;}
 }
 @media screen and (max-width: 585px){
-	.tablet{    margin-bottom: 65px;}
+	.tablet{    margin-bottom: 80px;}
 	  .contant-block .contest-block>.contest-link{width: 65%;}
 	.contant-block .contest-block p{padding-left: 0; width: 90%;}
 	/*.logo2{display: none;}*/
@@ -187,6 +186,8 @@
     .wrapper .header .tel, .wrapper .header .info{width: 134px; padding-left: 10px; text-align: left;}
 }
 @media screen and (max-width: 410px){
+	.news-blocks .info-block .all-project{background: white;}
+	.invest-project .all-project{background: none;}
 	  .contant-block .contest-block>.contest-link{width: 50%;}
 	.news-blocks .info-block .info{height: 200px;}
 	.news-blocks .info-block .all-project{margin-top: 50px;}
