@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Corbel;
+    src: url(../fonts/corbel.ttf);
+}
+
+
+
+
+.form-title {
+    padding-top: 30px !important;
+}
+
+.invest-form {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.invest-form input,
+textarea {
+    width: 83%;
+    height: 30px;
+    padding: 0 0 0 5px;
+    background-color: rgb(242,242,242);
+    margin-top: 20px;
+    float: right;
+    border: none;
+}
+
+.invest-form input:focus,
+textarea:focus {
+    border: 1px solid rgb(172,172,172);
+     box-sizing: border-box;
+}
+
+textarea {
+    height: 180px;
+    padding-top: 3px;
+
+}
+
+label {
+    display: block;
+    width: 13.7%;
+    text-align: right;
+    float: left;
+    margin: 20px 20px 0 0;
+    line-height: 30px;
+}
+
+label, form>p {
+    font-family: 'Corbel',Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+form>p {
+    clear: both;
+    margin-left: 16%;
+    padding-top:4px;
+}
+
+label[for="invest-email"]:after,
+label[for="invest-title"]:after,
+label[for="invest-textarea"]:after,
+form>p:before
+{
+    content: "";
+    width: 7px;
+    height: 6px;
+    float: right;
+    background-image: url(../img/form-star.png);
+    margin: 8px 0 0 3px;
+}
+
+form>p:before {
+    float:left;
+    margin: 2px;
+}
+
+.invest-submit {
+    float: right;
+    margin: 0 !important;
+    height: 50px !important;
+    padding: 0 !important;
+    line-height: 50px !important;
+}
+
+.invest-submit:hover {
+    cursor: pointer;
+}
+
+
+
+
+/*media queries*/
+@media screen and (max-width: 825px) {
+    label {text-align: left;position: static;width: auto;margin-right: 0;}
+    .invest-form {width: 80%;}
+    .invest-form input, textarea {float: left;width: 100%;margin-top: 0;}
+    form > p {margin-left: 0;  }
+    .invest-submit {margin:2% 10% 0 0 !important;float:none;}
+}
+

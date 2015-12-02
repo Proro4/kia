@@ -1,3 +1,9 @@
+@media screen and (max-width: 1444px){
+	.cos-link li {
+    margin-left: 6%;
+    width: 17%;
+}
+}
 @media screen and (max-width: 1366px){
 	.map-link .map-block .all-links {width: 25%;}
 	  .map-link:after {  background: url(../img/arrow-top2.png) 55%;}
@@ -35,8 +41,17 @@
     width: 488px;}
     .wrapper .slider .slide-text .slide-all-text{    padding-top: 23px;}
     .wrapper .slider .slide-text .slide-all-text .slide-text-block{    font-size: 16px;}
+    .cos-link li {
+    margin-left: 10%;
+    width: 200px;
+}
 }
 @media screen and (max-width: 1000px){
+	.title-page,.breadcrumb{
+		bottom: -12px;
+	}
+	
+	.text-block img{width: 100%; height: auto;}
 	.map-link .map-block .all-links {width: 35%;}
 	.contant-block .contest-block p{margin-left: 0;}
 	.containers{width: 768px;}
@@ -68,6 +83,9 @@
 	.news-blocks .info-block .all-links,.map-link .map-block .all-links,.invest-project .all-links,.success-story .all-links, .contant-block .all-links,.contant-block .ad-contest-block .all-links{background:none;margin-right: 50px;}
 	.news-blocks .info-block .all-links:hover,.invest-project .all-links:hover,.success-story .all-links:hover, .contant-block .all-links:hover,.contant-block .ad-contest-block .all-links:hover{background:#013c5e;}
 	.map-link .map-block .all-links:hover{background: white;}
+	.contant-block.gray-block.arrow-gray.form-page{
+		    top: 7px;
+	}
 }
 @media screen and (max-width: 900px){
 
@@ -75,9 +93,11 @@
 	.slider .invest-project{left: 5%;}
 }
 
-@media screen and (max-width: 800px){.invest-project .all-links {
-    margin: 5px auto;
-}
+@media screen and (max-width: 800px){
+	.invest-project .all-links { margin: 5px auto; }
+	.title-page,.breadcrumb{
+		bottom: -35px;
+	}
 .news-blocks .info-block{width: 100%;}
 .wrapper .header{	height: 65px;}
 .wrapper .header .tel,.wrapper .header .info{width: 155px;}
@@ -125,9 +145,11 @@
 	.invest-project ul li a{text-align: center;}
 	.menu-head-popup a{padding: 15px 0px;}
 	.map-link .map-block .all-links,.news-blocks .info-block .all-links,.success-story .all-links, .contant-block .all-links{width: 80%;display: block; margin:15 auto;}
+ .contant-block.gray-block.arrow-gray.form-page{ top: 35px;}
 }
 
 @media screen and (max-width: 720px){
+	.empty-block-header{height: 133px;}
 	  .footer i:last-child{ float: left;}
 	.tablet{display: block;       padding-left: 10px;}
 	.menu-head-popup{margin-top: 33px;}
@@ -170,6 +192,7 @@
    	position: relative; left: 10px; width: 80%; height: 25px;}
 }
 @media screen and (max-width: 585px){
+	.empty-block-header{height: 105px;}
 	.tablet{    margin-bottom: 80px;}
 	  .contant-block .contest-block>.contest-link{width: 65%;}
 	.contant-block .contest-block p{padding-left: 0; width: 90%;}

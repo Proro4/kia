@@ -97,15 +97,15 @@ blockquote, q {
       width: 700px;
       position: relative; }
       .wrapper .header-bottom .mini-width .lang {
-            overflow: hidden;
-    height: 17px;
+        overflow: hidden;
+        height: 17px;
         margin-top: 20px;
         margin-right: 10px;
         width: 55px;
         padding-right: 15px;
         cursor: pointer;
         float: right;
-        background: url(../img/other/arrow-lang.png) no-repeat right center; }
+        background: url(../img/other/arrow-lang.png) no-repeat right 5px; }
         .wrapper .header-bottom .mini-width .lang .lang-select {
           color: white;
           text-transform: uppercase;
@@ -131,31 +131,33 @@ blockquote, q {
           .wrapper .header-bottom .mini-width .menu-head>li>ul {
             margin-top:-400px;
             position: absolute;
-            width: 150px;
+            width: 215px;
             background: white; 
             transition:.2s all;}
             .wrapper .header-bottom .mini-width .menu-head>li:hover>ul{
               margin-top: 0;
             }
             .wrapper .header-bottom .mini-width .menu-head>li>ul>li{
-              text-align: center;
+              text-align: left;
               display: block;
               height: 100%;
               width: 100%;
                }
               .wrapper .header-bottom .mini-width .menu-head>li>ul>li>a{
-              color: #013c5f;
+              color: white;
               text-decoration: none; 
-              font-family: Calibri, Tahoma, sans-serif;
-              font-size: 18px;
-              display: block;
-              widows: 100%;
-              line-height: 40px;
+              padding-left: 15px;
+              align-items: center ;
+              font-family: Myriad Pro, Lucida Sans, sans serif;
+              font-size: 14px;
+              display: flex;
+               width: 100%;
               transition:0.2s all;
+              background: #2f2f2f;
               height: 40px;}
                .wrapper .header-bottom .mini-width .menu-head>li>ul>li>a:hover{
-                color:white;
-                background: #013c5f;
+
+                color: #117bb9;
                }
           .wrapper .header-bottom .mini-width .menu-head>li>a {
             -webkit-transition: 0.2s all;
@@ -1018,3 +1020,154 @@ overflow: hidden;}
     font-family: Calibri, Tahoma, sans-serif;
     transition:0.3s all;
     margin-bottom: 40px;}
+
+    .header-bottom.header-two{
+      background: url(../img/bck-header.jpg);
+    }
+    .breadcrumb{
+      height: 25px;
+      width: 100%;
+      background: #117bb9;
+      position: relative;
+      bottom: 5px;
+      font-size: 14px;
+    font-family: Calibri, Tahoma, sans-serif;
+    color: white;
+    line-height: 25px;
+    }
+    .breadcrumb a{
+    color: white;
+    text-decoration: none;
+    }
+    .breadcrumb a:hover{text-decoration: underline;}
+    .title-page{
+      text-transform: uppercase;
+      font-size: 30px;
+    font-family:'MyriadPro-Semibold', Lucida Sans, sans serif;
+    color: #013c5e;
+    text-align: center;
+    padding: 15px 0;
+    background: #f2f2f2;
+    position: relative;
+    bottom: 5px;
+    }
+    .text-page h2{
+      font-size: 24px;
+      font-weight: bold;
+      color: #1c7fbb;
+      text-transform:uppercase;
+      margin-bottom: 15px;
+    }
+    .text-page span{
+      margin-top: 25px;
+      font-size: 16px;
+      font-family: Calibri, Tahoma, sans-serif;
+      line-height: 18px;
+      padding-bottom: 25px;
+      display: block;
+    }
+    .text-page span a{
+      color:#8dc63f;
+      text-decoration: none;
+    }
+    .text-page span a:hover{
+      text-decoration: underline;
+    }
+    .text-page span img{
+      display: inline-block;
+      float: left;
+      margin-right: 15px;
+      padding-bottom: 15px;
+    }
+    .subtitle-text-block{
+      color:#0072b4;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+    span ul{
+      margin-top: 20px;
+    }
+    span ul li{
+      margin-top: 10px;
+      padding-left: 35px;
+      background: url(../img/circle.png)no-repeat left 6px;
+    }
+  .print-link{
+    width: 100%;
+    height: 35px;
+    background: #f2f2f2;
+    text-align: center;
+  }
+  .print-link a{
+      color: #013c5e;
+      text-decoration: none;
+      line-height: 35px;
+      font-size: 16px; padding-left: 35px;
+      background: url(../img/icon/print.png)no-repeat;
+      font-family: Calibri, Tahoma, sans-serif;
+  } 
+
+  /*form-page*/
+  .contant-block.gray-block.arrow-gray.form-page:before{
+    z-index: 1;
+  }
+  .cos-link {
+    width: 100%;
+    background: white;
+    display: inline-block;
+    padding: 15px 0;
+    background: #f2f2f2;
+}
+.cos-link ul {
+    padding: 0px 8px;
+
+}
+.cos-link li {
+    margin-left: 10%;
+    display: inline-block;
+    height: 30px;
+    width: 12%;
+    text-align: right;
+}
+.twit {
+    background: url(../img/icon-social.png)no-repeat 0 -60px, #00b6ec;
+}
+.fb {
+    background: url(../img/icon-social.png)no-repeat 0 0px, #425497;
+}
+.vk {
+    background: url(../img/icon-social.png)no-repeat 0 -90px, #536e8f;
+}
+
+.gplus {
+    background: url(../img/icon-social.png)no-repeat 0 -30px, #de4241;
+}
+
+.cos-link a {
+    background: white;
+    color: #00b6ec;
+}
+
+.cos-link li a {
+    text-decoration: none;
+    color: #013c5e;
+    text-transform: uppercase;
+      font-family: Calibri, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    margin-right: 2px;
+    padding: 3px 5px 4px 2px;
+}
+
+.cos-link .twit a span{ border-right:2px solid #00b6ec; }
+.cos-link .fb a span{ border-right:2px solid #425497; }
+.cos-link .vk a span{ border-right:2px solid #536e8f; }
+.cos-link .gplus a span{ border-right:2px solid #de4241; }
+.cos-link li a span {
+    background: white;
+    color: #013c5e;
+    padding: 2px 5px 3px 5px;
+    margin-right: 3px;
+    transition: 0.3s all; }
