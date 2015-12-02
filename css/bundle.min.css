@@ -1086,10 +1086,10 @@ overflow: hidden;}
       margin-top: 25px;
       margin-bottom: 15px;
     }
-    span ul{
+    .text-page span ul{
       margin-top: 20px;
     }
-    span ul li{
+    .text-page span ul li{
       margin-top: 10px;
       padding-left: 35px;
       background: url(../img/circle.png)no-repeat left 6px;
@@ -1113,6 +1113,7 @@ overflow: hidden;}
   .contant-block.gray-block.arrow-gray.form-page:before{
     z-index: 1;
   }
+  
   .cos-link {
     width: 100%;
     background: white;
