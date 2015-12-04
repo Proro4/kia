@@ -4,10 +4,19 @@ $(document).ready(function(){
 	$('.arrow-to-top, .block-links-two,.block-links-one, .block-links-three,.block-links-four').fadeOut();
 
 
+	$('.arrow-to-top').fadeOut();
+$('.lang .lang-but').on('click',function(){
+	if($('.lang').height() == 17){ 
+		$('.lang').animate({'height':'50px'},200)
+		$('.lang-but').css('display','none');
+		}
+	})
+		
 	$('.lang').on('click',function(){
-		$('.wrapper .header-bottom .mini-width .lang').animate({'height':'50px'},200)
-
-
+	if($('.lang').height() == 50){ 
+		$('.lang').animate({'height':'17px'},200)
+		$('.lang-but').css('display','block');
+		}
 	})
 	//SLIDER
 	var sliderlength = $('.item').length;

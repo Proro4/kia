@@ -1172,3 +1172,10 @@ overflow: hidden;}
     padding: 2px 5px 3px 5px;
     margin-right: 3px;
     transition: 0.3s all; }
+    .lang-but {
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
