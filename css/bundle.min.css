@@ -191,7 +191,7 @@ blockquote, q {
       width: 200%;
       position: absolute;
       left: 0;
-      top: 0; }
+      top: -16px; }
       .wrapper .slider .slider-container .item {
         position: relative;
         height: 100%;
