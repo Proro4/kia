@@ -1345,3 +1345,73 @@ float: right;
           .project-title a{
             padding: 0 15px;
           }
+          .preg-competition{
+            padding: 45px 0;
+          }
+.left-preg{
+  width: 335px;
+  float: left;
+  margin-right: 25px;
+}
+.left-preg img{
+  width: 100%;
+  padding-bottom: 15px;
+    cursor: pointer;
+}
+.left-preg-img {
+  display: flex;
+  justify-content:space-around;
+    cursor: pointer;
+}
+.left-preg-img img{
+  width: 23%;
+    height: 80px;
+}
+
+.date-preg,.numb-preg,.name-preg{
+color: white;
+display: inline-block;
+padding: 2px 5px;
+margin-right: 10px;
+font-size: 16px;}
+.date-preg{
+background:#013c5e;
+}
+.numb-preg{
+background:#117bb9;
+}
+.name-preg{
+background:#8dc63f;
+}
+.right-preg a.all-links{padding:0;margin-right:5px;}
+.right-preg a{
+  display: block;
+  text-decoration: none;
+  color: #0072b4;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+.right-preg p{
+  font-size: 14px;
+}
+.h2-preg{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #013c5e;
+  padding-top: 15px;
+}
+.right-preg tr{
+  background: #f2f2f2;
+}
+.right-preg tr:nth-child(2n){
+background: white;}
+.right-preg td{
+padding: 10px 15px 10px 15px;
+width: 50%;
+}
+.right-preg td ul li{
+  background: url(../img/other/circle.png)no-repeat left 6px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+
+}

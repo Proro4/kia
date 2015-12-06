@@ -97,6 +97,9 @@
 }
 
 @media screen and (max-width: 800px){
+	/*.date-preg{margin-left: 10px;}*/
+	.right-preg,.left-preg{width: 90%; margin: 0 auto; display: block;float: none;}
+
 	.releases-block.press-page{height: auto;
 		padding-bottom: 15px;}
 	.invest-project .all-links { margin: 5px auto; }
