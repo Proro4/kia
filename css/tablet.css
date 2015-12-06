@@ -1,9 +1,4 @@
-@media screen and (max-width: 1444px){
-	.cos-link li {
-    margin-left: 6%;
-    width: 17%;
-}
-}
+
 @media screen and (max-width: 1366px){
 	.map-link .map-block .all-links {width: 25%;}
 	  .map-link:after {  background: url(../img/arrow-top2.png) 55%;}
@@ -11,8 +6,6 @@
 	.slider .slide-text{	left: -5%;	bottom: 155px;	}
 	.arrow-to-top{	right: 0 !important;	bottom: 0 !important;}
 	.block-links-four,.block-links-three,.block-links-two,.block-links-one{width: 55px;}
-	.block-links-one a{position: relative; right: 20px;}
-	.block-links-two a{position: relative; right: 93px;}
 }
 @media screen and (max-width: 1225px){
 	.map-link .map-block .all-links {width: 29%;}
@@ -41,10 +34,7 @@
     width: 488px;}
     .wrapper .slider .slide-text .slide-all-text{    padding-top: 23px;}
     .wrapper .slider .slide-text .slide-all-text .slide-text-block{    font-size: 16px;}
-    .cos-link li {
-    margin-left: 10%;
-    width: 200px;
-}
+    
 }
 @media screen and (max-width: 1000px){
 	.project-name{margin-top: 50px;}
@@ -157,6 +147,7 @@
 }
 
 @media screen and (max-width: 720px){
+	.cos-link ul{display: block;}
 	.empty-block-header{height: 133px;}
 	  .footer i:last-child{ float: left;}
 	.tablet{display: block;       padding-left: 10px;}
@@ -198,6 +189,9 @@
    .logo2{position: absolute; right: 0; top: 0;}
    .search input[type='text']{margin-top: 30px;
    	position: relative; left: 10px; width: 80%; height: 25px;}
+   	.lightbox{
+   		padding-top: 35%;
+   	}
 }
 @media screen and (max-width: 585px){
 	.releases-block.press-page img{
