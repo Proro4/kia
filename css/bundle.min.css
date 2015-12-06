@@ -12,7 +12,8 @@
 body {
   line-height: 1;
   color: black;
-  background: white; }
+  background: white;
+      font-family: Calibri, Tahoma, sans-serif; }
 
 table {
   position: relative;
@@ -107,6 +108,7 @@ blockquote, q {
         float: right;
         background: url(../img/other/arrow-lang.png) no-repeat right 5px; }
         .wrapper .header-bottom .mini-width .lang .lang-select {
+          text-decoration: none;
           color: white;
           text-transform: uppercase;
           font-size: 14px;
@@ -169,6 +171,8 @@ blockquote, q {
             text-transform: uppercase;
             font-size: 14px;
             font-family: Myriad Pro, Lucida Sans, sans serif; }
+
+          .wrapper .header-bottom .mini-width .menu-head>li>a.active-menu,
           .wrapper .header-bottom .mini-width .menu-head>li>a:hover {
             background: #117bb9; }
   .wrapper .slider {
@@ -412,7 +416,8 @@ blockquote, q {
 .contant-block {
   width: 100%;
   min-height: 100px;
-  position: relative; }
+  position: relative; 
+bottom: 2px;}
 
   .contant-block .cont-block-title {
     padding-top: 80px;
@@ -580,21 +585,24 @@ blockquote, q {
       position: relative;
       margin-bottom: 50px;
       float: left; }
-       .info .block-12 {
+        .block-12 {
         margin-right: 10px;
-        float: left;
         display: inline-block;
         color: white;
           font-family: Calibri, Tahoma, sans-serif;;
         font-size: 28px;
         line-height: 15px;
         text-align: center;
-        padding: 10px 5px; }
-        .info .block-12 span {
+        width: 50px;
+        height: 50px; 
+  text-align: center;
+   display:table-cell;
+  vertical-align: middle;}
+        .block-12 span {
           font-size: 16px;
           font-family: Calibri, Tahoma, sans-serif;;
           line-height: 0; }
-       .info .info-link {
+        .info-link {
         transition:.3s all;
         text-transform: uppercase;
         font-size: 14px;
@@ -602,6 +610,7 @@ blockquote, q {
         text-decoration: none;
         color: #117bb9;
         padding-right: 20px;
+        vertical-align: top;
         line-height: 1.7; }
 
      .news-blocks .info-block .info .info-link:hover{
@@ -959,10 +968,6 @@ overflow: hidden;}
   text-decoration: none;
 
 }
-.contant-block .cont-block-title.contest-title{
- padding-top: 0px;
-}
- 
     
 .map-link .map-block .all-links {
        margin: 0 auto;
@@ -1099,6 +1104,7 @@ overflow: hidden;}
     height: 35px;
     background: #f2f2f2;
     text-align: center;
+    display: inline-block;
   }
   .print-link a{
       color: #013c5e;
@@ -1179,3 +1185,163 @@ overflow: hidden;}
     height: 100%;
     width: 100%;
 }
+.project-name{
+  padding-top: 25px;
+  position: relative;
+}
+.project-block {
+  height: 140px;
+  width: 47%;
+  float: left;
+}
+.project-block:nth-child(2n) {float: right;}
+.project-block .project-img{
+    display: inline-block;
+    height: 100%;
+    float: left;
+    width: 90px;
+}
+.project-block .project-img .project-img-block{
+  height: 60px; width: 60px;
+  background: #8dc63f;
+  text-align: center;
+   display:table-cell;
+  vertical-align: middle;
+}
+.project-block a{
+      float: left;
+    clear: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family:'MyriadPro-Semibold', Lucida Sans, sans serif;
+    color: black;
+    transition:.3s all;
+    margin-bottom: 15px;
+    padding-right: 30px;
+    background: url(../img/other/arrow-menu.png)no-repeat right center;
+  }
+.project-block a:hover{
+  color: #013c5e;
+    padding-right: 50px;
+    background: url(../img/other/arrow-menu-h.png)no-repeat right center;
+}
+
+.project-block p{
+    float: left;
+    width: 79%;
+      font-family: Calibri, Tahoma, sans-serif;
+      font-size: 14px;
+}
+.date-block{
+  float: left;
+  height: 120px;
+  width: 70px;
+      font-family: Calibri, Tahoma, sans-serif;
+      font-size: 14px;
+}
+.date-block p{
+  width: 50px;
+  margin-top: 5px;
+  color: #117bb9;
+  text-align: center;
+}
+.releases-block.press-page{
+  padding-top: 15px;
+  height: 175px;
+background: #f2f2f2;
+}
+.releases-block.press-page img{
+  float: left;
+  padding-right: 15px;
+  height: 155px;
+  width: 310px;
+}
+.releases-block.press-page a{
+  margin-bottom: 10px;
+  display: block;
+}
+.releases-block.press-page:nth-child(2n){
+  background: white;
+}
+.pagination{text-align: center;
+float: right;    
+      background: white;    margin: 25px 200px 25px 0; border:3px solid #013c5e;
+    display: inline-block;height: 33px;
+}
+     .pagination li{ display: inline-block; float: left;}
+     .pagination li a{ color: #013c5e; display: inline-block; transition:.2s all; height: 25px; width: 25px; line-height: 25px;
+      font-family: Calibri, Tahoma, sans-serif; text-decoration: none; padding: 4px; }
+     .pagination li a:hover{background: #99b6c1; color:white;}
+     .print-link a:hover{text-decoration: underline;}
+     .news-block{ padding: 10px 0; position: relative; clear: both;}
+     .news-block>img{float: left;}
+     .pagination li span{
+ display: inline-block;
+    transition: .2s all;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 4px;}
+    .pagination .active{ background: #013c5e;}
+    .pagination .active a{color: white;}
+        .pagination .active a:hover{color: #013c5e; background: white;}
+        .releases-right{float: right; width: 65%;}
+       /* .releases-right p{    display: inline-block;
+    width: 50%;}*/
+        .releases-right .containers{width: auto;}
+          .left-menu{float: left;}
+          .left-menu li{
+
+            background: #f2f2f2;
+    width: 300px;
+          }
+          .left-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+    display: table-cell;
+    height: 42px;
+    vertical-align: middle;
+    padding-left: 20px;
+    transition:.3s all;
+    padding-right: 25px;
+    background: url(../img/other/arrow-menu.png)no-repeat right center;
+          }
+          .left-menu a:hover{
+    padding-right: 45px;
+
+    background: url(../img/other/arrow-menu-h.png)no-repeat right center;
+          }
+          .left-menu li:hover{
+            
+            background: white;
+          }
+          .releases-right .releases-block.press-page img{
+            width: 240px;
+            height: 120px;
+          }
+          .releases-right .releases-block.press-page{background: white;}
+          .project-title-img{
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            background: #8dc63f;
+   display:inline-block;
+          }
+          .project-title{
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            color: #117bb9;
+            text-transform: uppercase;
+          }
+          .project-title-img img{
+            padding-bottom: 25px;
+            padding-top: 10px;
+          }
+          .project-title a{
+            padding: 0 15px;
+          }

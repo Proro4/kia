@@ -47,6 +47,8 @@
 }
 }
 @media screen and (max-width: 1000px){
+	.project-name{margin-top: 50px;}
+	.project-block{width: 100%;}
 	.title-page,.breadcrumb{
 		bottom: -12px;
 	}
@@ -86,6 +88,7 @@
 	.contant-block.gray-block.arrow-gray.form-page{
 		    top: 7px;
 	}
+	.releases-right{width: 99%; padding-left: 1%;}
 }
 @media screen and (max-width: 900px){
 
@@ -94,6 +97,8 @@
 }
 
 @media screen and (max-width: 800px){
+	.releases-block.press-page{height: auto;
+		padding-bottom: 15px;}
 	.invest-project .all-links { margin: 5px auto; }
 	.title-page,.breadcrumb{
 		bottom: -35px;
@@ -192,6 +197,10 @@
    	position: relative; left: 10px; width: 80%; height: 25px;}
 }
 @media screen and (max-width: 585px){
+	.releases-block.press-page img{
+		clear: both;
+	}
+	.releases-block.press-page a,.releases-block.press-page p{float: left;}
 	.empty-block-header{height: 105px;}
 	.tablet{    margin-bottom: 80px;}
 	  .contant-block .contest-block>.contest-link{width: 65%;}
@@ -222,6 +231,12 @@
 	.wrapper .header .info{  position: absolute;    left: 130px;
     top: 50px;}
     .wrapper .header .tel, .wrapper .header .info{width: 134px; padding-left: 10px; text-align: left;}
+    .project-block {
+    height: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 5px;
+}
 }
 @media screen and (max-width: 410px){
 	.news-blocks .info-block .all-project{background: white;}
