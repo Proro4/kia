@@ -165,12 +165,12 @@ blockquote, q {
           .wrapper .header-bottom .mini-width .menu-head>li>a {
             -webkit-transition: 0.2s all;
                     transition: 0.2s all;
-            padding: 8px 3px;
+            padding: 8px 4px;
             display: inline-block;
             color: white;
             text-decoration: none;
             text-transform: uppercase;
-            font-size: 14px;
+            font-size: 13.8px;
             font-family: Myriad Pro, Lucida Sans, sans serif; }
 
           .wrapper .header-bottom .mini-width .menu-head>li>a.active-menu,
