@@ -163,15 +163,16 @@ $('.lang .lang-but').on('click',function(){
 
 	//Project hover
 
+	var arromImg = $('.arrow-s').attr('src')
+	var arromImgHover = $('.arrow-s-h').attr('src')
+	$('.invest-project ul li a img').attr('src',arromImg);
 	$('.invest-project ul li a').mouseenter(function(){
-		$(this).find('img').remove();
-		$(this).append('<img src="img/other/arrow-menu-h.png" alt="">');
+		$(this).find('img').attr('src',arromImgHover);
 		$(this).find('img').animate({'left':'25px'},300);
 	})
 	$('.invest-project ul li a').mouseleave(function(){
 		$(this).find('img').animate({'left':'5px'},300);
-		$(this).find('img').remove();
-		$(this).append('<img src="img/other/arrow-menu.png" alt="">');
+		$(this).find('img').attr('src',arromImg);
 	})
 
 	
