@@ -1645,3 +1645,102 @@ margin: 25px 0;
   height: 100%;
   width: 100%;
 }
+.number-doc{
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+  padding-top: 8px;
+  background: url(../img/icon/abobe-icon.png)no-repeat right;
+  margin-bottom: 50px;
+  float:left;
+  margin-right: 15px;
+}
+.doc-block{
+  padding-top:25px;
+}
+.document-title{
+  text-transform: uppercase;
+  color: #0072b4;
+  padding: 15px 0 0 25px; 
+}
+.doc-block p{
+  display: block;
+  padding-bottom: 15px;
+}
+
+.review-link,.down-link{
+  text-decoration: none;
+  font-size: 14px;
+ text-transform: uppercase;
+ width: 150px;
+ display: inline-block;
+ text-align: center;
+ height: 30px;
+ line-height: 30px;
+ margin-right: 15px;
+ transition:.3s all;
+}
+.down-link{
+ border:3px solid #013c5e;
+ color:#013c5e;
+ background: url(../img/other/big-arrow-menu.png)no-repeat 90% center;
+}
+
+.down-link:hover{
+color: white;
+ background: url(../img/other/arrow-link.png)no-repeat 90% center,#013c5e;
+}
+.review-link{
+ border:3px solid #0072b4;
+ color:#0072b4;
+ background: url(../img/other/big-arrow-m.png)no-repeat 90% center;
+}
+.review-link:hover{
+color: white;
+ background: url(../img/other/arrow-link.png)no-repeat 90% center,#0072b4;
+}
+.printer-link{
+  text-decoration: none;
+  color: #013c5e;
+  padding-left: 30px;
+  background: url(../img/icon/print.png)no-repeat left;
+}
+.printer-link:hover{
+  text-decoration: underline;
+}
+.document-block{
+padding-bottom: 25px;
+ background: #f2f2f2;
+}
+.document-block:nth-child(2n){
+  background: white;
+}
+.doc-block span{
+  display: none;
+}
+.lightbox span{
+ background: white;
+ display: block;
+ font-size: 16px;
+ width: 80%;
+ margin: 0 auto;
+ line-height: 1.2;
+ padding: 15px;
+}
+
+.lightbox i{
+    cursor: pointer;
+    font-size: 26px;
+    color: white;
+    font-style: normal;
+    position: absolute;
+    font-family: cursive;
+    right: 100px;
+    top: 100px;
+}
+.lightbox .print-link{
+  background: white;
+ width: 80%;
+ padding: 15px;
+ margin: 0 auto;
+}

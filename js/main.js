@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+	// lightbox for document
+	$('.review-link').on('click',function(){
+		var textReview = $(this).parent().find('span').text()
+		$('.lightbox span').text(textReview);
+		$('.lightbox').css('display','block')
+	})
+	$('.lightbox i').on('click',function(){
+		var textReview = $(this).parent().find('span').text(' ')
+		$('.lightbox').css('display','none')
+	})
+
+
+
 
 	//img show
 	$('.left-preg img').on('click',function(){
