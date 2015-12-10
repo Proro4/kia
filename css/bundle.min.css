@@ -272,7 +272,7 @@ blockquote, q {
   min-height: 100px;
   background: #e5ecf3;
   right: -15%;
-  bottom: 150px; }
+  bottom: 120px; }
   .invest-project .title-invest-project {
     text-transform: uppercase;
     background: -webkit-linear-gradient(top, #2a2e38 0%, #2b3747 100%);
@@ -315,6 +315,12 @@ blockquote, q {
     background: url(../img/icon/electronic-icon-h.png) no-repeat 20px, white; }
   .invest-project ul li .peap-ic:hover {
     background: url(../img/icon/people-icon-h.png) no-repeat 20px, white; }
+  .invest-project ul li .sport-ic:hover {
+    background: url(../img/icon/sport-icon-h.png) no-repeat 20px; }
+  .invest-project ul li .house-ic:hover {
+    background: url(../img/icon/house-icon-h.png) no-repeat 20px; }
+  .invest-project ul li .util-ic:hover {
+    background: url(../img/icon/util-icon-h.png) no-repeat 20px; }
 
 .soc-ic {
   background: url(../img/icon/social-icon.png) no-repeat 20px; }
@@ -337,6 +343,14 @@ blockquote, q {
 .peap-ic {
   background: url(../img/icon/people-icon.png) no-repeat 20px; }
 
+.sport-ic {
+  background: url(../img/icon/sport-icon.png) no-repeat 20px; }
+
+.house-ic {
+  background: url(../img/icon/house-icon.png) no-repeat 20px; }
+
+.util-ic {
+  background: url(../img/icon/util-icon.png) no-repeat 20px; }
 .search {
   display: inline-block;
   margin-top: 25px; }
