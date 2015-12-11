@@ -449,7 +449,7 @@ bottom: 2px;}
     width: 32%;
     margin-left: 1.5%; }
     .contant-block .ad-contest-block img {
-      width: 100%;
+      max-width: 100%;
       margin-top: 5px; }
     .contant-block .ad-contest-block .ad-contest-text {
       text-transform: uppercase;
@@ -682,7 +682,9 @@ bottom: 2px;}
             bottom: 0;
           }
           .success-story .carusel .all-carusel .carusel-block .carusel-item img {
-            width: 100%; }
+            margin: 0 auto;
+            display: block;
+            max-width: 100%; }
           .success-story .carusel .all-carusel .carusel-block .carusel-item p {
              transition:0.3s all;
             position: absolute;
