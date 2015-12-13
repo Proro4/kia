@@ -171,7 +171,7 @@ blockquote, q {
             color: white;
             text-decoration: none;
             text-transform: uppercase;
-            font-size: 13.8px;
+            font-size: 13px;
             font-family: Myriad Pro, Lucida Sans, sans serif; }
 
           .wrapper .header-bottom .mini-width .menu-head>li>a.active-menu,
@@ -616,8 +616,9 @@ bottom: 2px;}
   vertical-align: middle;}
         .block-12 span {
           font-size: 16px;
-          font-family: Calibri, Tahoma, sans-serif;;
-          line-height: 0; }
+          font-family: Calibri, Tahoma, sans-serif;
+    line-height: 1.2;
+    display: list-item; }
         .info-link {
         transition:.3s all;
         text-transform: uppercase;
@@ -750,6 +751,8 @@ bottom: 2px;}
       padding-bottom: 20px;
       text-transform: uppercase; }
     .footer .Subscription input[type="email"] {
+          padding: 3px 5px 4px;
+      margin-top: 0;
       width: 170px;
       height: 25px;
       color: black;
