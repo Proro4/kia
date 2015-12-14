@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+
+	$('.block-12.blue br').css('display','none');
+
 	// lightbox for document
 	$('.review-link').on('click',function(){
 		var textReview = $(this).parent().find('span').text()

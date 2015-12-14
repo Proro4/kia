@@ -1,0 +1,19 @@
+.contant-block .ad-contest-block{
+	margin-left: 0;
+	padding: 6px;
+}
+.contant-block .ad-contest-block:first-child{
+	margin-left: 0;
+}
+.arrow-white:before {
+	top: 99.3%;
+}
+
+@media screen and (max-width: 1000px){
+	.contant-block .ad-contest-block:first-child{
+		margin-left: 12%;
+	}
+	.contant-block .ad-contest-block {
+		margin-left: 12%;
+	}
+}

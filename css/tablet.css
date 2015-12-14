@@ -57,8 +57,10 @@
 			.footer .Subscription input[type="submit"]{
 				width: 182px; margin-left: 0; margin-top: 5px;
 			}
-	.soc-ic,.med-ic,.en-ic,.tran-ic,.ek-ic,.elek-ic,.peap-ic{background: none;}
-.invest-project ul li .peap-ic:hover,.invest-project ul li .elek-ic:hover,.invest-project ul li .ek-ic:hover,.invest-project ul li .tran-ic:hover,.invest-project ul li .soc-ic:hover,.invest-project ul li .en-ic:hover,.invest-project ul li .med-ic:hover{background: none;}
+	.util-ic,.house-ic,.sport-ic,.soc-ic,.med-ic,.en-ic,.tran-ic,.ek-ic,.elek-ic,.peap-ic{background: none;}
+
+.invest-project ul li .util-ic:hover,.invest-project ul li .house-ic:hover,.invest-project ul li .sport-ic:hover,.invest-project ul li .peap-ic:hover,.invest-project ul li .elek-ic:hover,.invest-project ul li .ek-ic:hover
+,.invest-project ul li .tran-ic:hover,.invest-project ul li .soc-ic:hover,.invest-project ul li .en-ic:hover,.invest-project ul li .med-ic:hover{background: none;}
 
 	  .map-link:after {  background: url(../img/arrow-top2-mini.png) 45%;}
 	  .search input[type='text']{margin-left: 100px;}
