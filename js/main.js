@@ -23,7 +23,7 @@ $(document).ready(function(){
 		$('.lightbox').append('<img src="'+$(this).attr("src")+'" alt="">');
 		var imgIndex = $(this).index();
 		var imgLength = $('.left-preg img:eq('+imgIndex+')').attr('src');
-		$('.lightbox img').css({'max-width':"80%",'min-width':'30%'});
+		$('.lightbox img').css({'max-width':"80%"});
 		$('.arrow-light-left').on('click',function(){
 		var imageLength = $('.left-preg img').length;
 			imgIndex = imgIndex-1;
@@ -213,7 +213,7 @@ $('.lang .lang-but').on('click',function(){
 
 		$(window).scroll(function() {
  
-		if($(this).scrollTop() >= 150) {
+		if($(this).scrollTop() >= 50) {
 			 
 			$('.arrow-to-top').fadeIn();
 			if($('body').width() >= 1100){ 
