@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-	$('.block-12.blue br').css('display','none');
+	$('.block-12 br').css('display','none');
 
 	// lightbox for document
 	$('.review-link').on('click',function(){
