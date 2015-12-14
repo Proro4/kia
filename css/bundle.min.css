@@ -1488,13 +1488,13 @@ width: 50%;
 }
 .arrow-light-left:hover{
   background:url(../img/other/carusel-arrow-prev.jpg)no-repeat center, rgba(0,0,0,.4);
-  width: 10%;
+  width: 7%;
 }
 .arrow-light-right:hover{
   background:url(../img/other/carusel-arrow-next.jpg)no-repeat center, rgba(0,0,0,.4);
-  width: 10%;
+  width: 7%;
 }
-.lightbox img{max-width:80%;min-width:30%;}
+.lightbox img{max-width:80%;}
 .red-compet{
   margin-top: 35px;
 }
