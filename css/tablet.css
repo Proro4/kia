@@ -2,7 +2,7 @@
 @media screen and (max-width: 1366px){
 	.map-link .map-block .all-links {width: 27%;}
 	  .map-link:after {  background: url(../img/arrow-top2.png) 55%;}
-	.slider .invest-project{right: -5%; bottom: 55px;	}
+	.slider .invest-project{right: -5%; bottom: 100px;	}
 	.slider .slide-text{	left: -5%;	bottom: 155px;	}
 	.arrow-to-top{	right: 0 !important;	bottom: 0 !important;}
 	.block-links-four,.block-links-three,.block-links-two,.block-links-one{width: 55px;}
@@ -71,7 +71,7 @@
 	  .invest-project ul li a img{display: none;}
 	  .invest-project ul li a{padding: 9px 0px 7px 20px;}
 	  .invest-project .all-project{    padding: 11px 0 11px 10px;}
-	  .slider .invest-project{left: 0%; height: 385px; width: 290px;}
+	  .slider .invest-project{left: 0%; height: 285px; width: 290px;}
 	  .invest-project .title-invest-project{right: 168px; top: 120px;}
 	  .footer .inform-block{margin-bottom: 35px;}
 	  .contant-block .contest-block>.contest-link{width: 75%;}

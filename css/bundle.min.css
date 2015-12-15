@@ -1112,12 +1112,8 @@ overflow: hidden;}
     .text-page  a:hover{
       text-decoration: underline;
     }
-    .text-page  img{
-      display: inline-block;
-      float: left;
-      margin-right: 15px;
-      padding-bottom: 15px;
-      margin-top: 10px;
+    .text-page img{
+      margin:10px 10px 10px 0;
     }
     .subtitle-text-block{
       color:#0072b4;
