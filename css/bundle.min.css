@@ -1113,7 +1113,7 @@ overflow: hidden;}
       text-decoration: underline;
     }
     .text-page img{
-      margin:10px 10px 10px 0;
+      margin:0;
     }
     .subtitle-text-block{
       color:#0072b4;
