@@ -243,12 +243,16 @@ blockquote, q {
         padding-top: 45px;
         position: relative; }
         .wrapper .slider .slide-text .slide-all-text .slide-text-block {
-          font-size: 18px;
+          font-size: 17px;
           color: white;
           font-family: 'MyriadPro-Semibold';
           text-transform: uppercase;
           float: left;
           text-align: left; }
+        .wrapper .slider .slide-text .slide-all-text .slide-text-block a{
+          color: white;
+          text-decoration: none;
+        }
       .wrapper .slider .slide-text .arrow-prev, .wrapper .slider .slide-text .arrow-next {
         height: 22px;
         width: 22px;
@@ -1787,6 +1791,139 @@ padding-bottom: 25px;
   float: none;
   width: 300px;
   margin-top: 100px;
+}
+.info-invest-page{
+  position: relative;
+  bottom: 20px;
+  left: 2px;
+}
+.info-invest-left{
+  float: left;
+  display: block;
+  width: 48.5%;
+}
+.info-nvest-text{
+  height: 70px;
+  border-bottom: 10px solid #F2F2F2;
+  font-size: 18px;
+  padding: 20px 0;
+  position: relative;
+  padding-top: 50px;
+}
+.info-nvest-text a{
+  color: #8dc63f;
+  text-decoration: none;
+}
+.info-nvest-text a:hover{
+  text-decoration: underline;
+}
+.info-nvest-text span{
+  position: absolute;
+  font-size: 23px;
+  top: 0px;
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+  color: white;
+  line-height: 1.3;
+}
+.info-invest-left .info-nvest-text{
+  text-align: center;
+}
+.info-invest-left .info-nvest-text:before{
+  content: '';
+  background: url(../img/other/arrow-left-h-invest.png)no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 35px;  
+  z-index: 5;
+}
+.info-invest-left .info-nvest-text:nth-child(2n):before{
+  content: '';
+  background: url(../img/other/arrow-left-invest.png)no-repeat;
+  position: absolute;
+  right: 0%;
+  bottom: 0;
+  height: 50px;
+  width: 35px;  
+  z-index: 5;
+}
+.info-invest-left .info-nvest-text:last-child:before{background: none;}
+.info-invest-left .info-nvest-text span{
+  left: 0px;
+  background: #117bb9;
+}
+
+.info-invest-left .info-nvest-text:nth-child(2n) span{
+  background: white;
+  color:#117bb9;
+}
+.info-invest-left .info-nvest-text:nth-child(2n){
+  background: #117bb9;
+  color: white;
+}
+.info-invest-center{
+  float: left;
+  display: block;
+  width: 3%;
+  background: #F2F2F2;
+  height: 650px;
+
+}
+.info-invest-right{
+  float: right;
+  display: block;
+  width: 48.5%;
+}
+
+.info-invest-right .info-nvest-text:before{
+  content: '';
+  background: url(../img/other/arrow-right-invest.png)no-repeat;
+  position: absolute;
+  left: 0%;
+  bottom: 0;
+  height: 50px;
+  width: 35px;  
+  z-index: 5;
+}
+
+.info-invest-right .info-nvest-text:nth-child(2n):before{
+  content: '';
+  background: url(../img/other/arrow-right-h-invest.png)no-repeat;
+  position: absolute;
+  left: 0%;
+  bottom: 0;
+  height: 50px;
+  width: 35px;  
+  z-index: 5;
+}
+.info-invest-right .info-nvest-text span{
+  right: 0px;
+  background: white;
+  color: #117bb9;
+}
+
+.info-invest-right .info-nvest-text:nth-child(2n) span{
+  background: #117bb9;
+  color:white;
+}
+.info-invest-right .info-nvest-text:first-child{
+  margin-top: 75px;
+}
+.info-invest-right .info-nvest-text{
+  text-align: center;
+  background: #117bb9;
+  color: white;
+}
+.info-invest-right .info-nvest-text:nth-child(2n){
+  background: white;
+  color: black;
+}
+
+.info-invest-right .info-nvest-text span{
+  right: 0px;
 }
 @media print{
   #navbar-iframe {display: none; height: 0px; visibility: hidden;}

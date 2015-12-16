@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
 	$('.block-12 br').css('display','none');
 
 	// lightbox for document
