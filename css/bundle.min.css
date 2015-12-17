@@ -1624,6 +1624,7 @@ width: 440px;
 height: 20px;
 margin: 25px 0;
   transition:.3s all;
+  float: none;    padding: 3px 5px 4px;
 }
 .delivery-block input[type="email"]:focus{
   border:1px solid black;
