@@ -714,6 +714,8 @@ bottom: 2px;}
             font-family: Calibri, Tahoma, sans-serif;;
             font-size: 14px;
             padding: 7px;
+            display: block;
+            width: 100%;
           }
             
           .success-story .carusel .all-carusel .carusel-block .carusel-item a:hover, .success-story .carusel .all-carusel .carusel-block .carusel-item p:hover{
