@@ -231,9 +231,9 @@ blockquote, q {
       .wrapper .slider .pagin .active {
         background: #0072b4; }
     .slide-text {
-      padding-left: 40px;
+      padding-left: 13px;
       height: 125px;
-      width: 580px;
+      width: 570px;
       background: rgba(0, 0, 0, 0.7);
       position: absolute;
       left: -15%;
@@ -686,7 +686,7 @@ bottom: 2px;}
           width: 32%;
           margin-left: 2%;
           overflow: hidden; }
-          .success-story .carusel .all-carusel .carusel-block .carusel-item:hover p{
+          .success-story .carusel .all-carusel .carusel-block .carusel-item:hover a, .success-story .carusel .all-carusel .carusel-block .carusel-item:hover p{
             bottom: 0;
           }
           .success-story .carusel .all-carusel .carusel-block .carusel-item img {
@@ -703,7 +703,20 @@ bottom: 2px;}
             font-family: Calibri, Tahoma, sans-serif;;
             font-size: 14px;
             padding: 7px; }
-            .success-story .carusel .all-carusel .carusel-block .carusel-item p:hover{
+          .success-story .carusel .all-carusel .carusel-block .carusel-item a{
+            color: white;
+            text-decoration: none; transition:0.3s all;
+            position: absolute;
+            bottom: -150px;
+            left: 0;
+            color: white;
+            background: rgba(0, 0, 0, 0.7);
+            font-family: Calibri, Tahoma, sans-serif;;
+            font-size: 14px;
+            padding: 7px;
+          }
+            
+          .success-story .carusel .all-carusel .carusel-block .carusel-item a:hover, .success-story .carusel .all-carusel .carusel-block .carusel-item p:hover{
               padding-bottom: 100px;
             }
         .success-story .carusel .all-carusel .carusel-block .carusel-item:first-child {
@@ -1930,4 +1943,11 @@ padding-bottom: 25px;
   .noprint {display: none;}
   body {background:#FFF; color:#000;}
   a {text-decoration: underline; color:#00F;}
+}
+.map-invest{
+  width: 100%;
+  height: 500px;
+}
+.qqvbed-tJHJj{
+  background-color: green;
 }
