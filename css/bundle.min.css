@@ -163,6 +163,7 @@ blockquote, q {
 
                 color: #117bb9;
                }
+        .wrapper .header-bottom .mini-width .menu-head>li>span,
           .wrapper .header-bottom .mini-width .menu-head>li>a {
             -webkit-transition: 0.2s all;
                     transition: 0.2s all;
@@ -173,7 +174,7 @@ blockquote, q {
             text-transform: uppercase;
             font-size: 13px;
             font-family: Myriad Pro, Lucida Sans, sans serif; }
-
+            .wrapper .header-bottom .mini-width .menu-head>li>span:hover,
           .wrapper .header-bottom .mini-width .menu-head>li>a.active-menu,
           .wrapper .header-bottom .mini-width .menu-head>li>a:hover {
             background: #117bb9; }
@@ -289,6 +290,7 @@ blockquote, q {
     font-family: 'MyriadPro-Semibold';
     line-height: 57px; }
  
+  .invest-project ul li span,
   .invest-project ul li a {
     display: block;
     padding: 15px 0px;
@@ -301,7 +303,7 @@ blockquote, q {
     padding-left: 75px;
     -webkit-transition: 0.4s all;
             transition: 0.4s all; }
-    .invest-project ul li a img {
+   .invest-project ul li span img, .invest-project ul li a img {
       position: relative;
       top: 2px;
       left: 5px; }
@@ -1259,6 +1261,7 @@ overflow: hidden;}
    display:table-cell;
   vertical-align: middle;
 }
+.project-block span,
 .project-block a{
       float: left;
     clear: right;
@@ -1272,6 +1275,7 @@ overflow: hidden;}
     padding-right: 30px;
     background: url(../img/other/arrow-menu.png)no-repeat right center;
   }
+.project-block span,
 .project-block a:hover{
   color: #013c5e;
     padding-right: 50px;
@@ -1349,6 +1353,7 @@ float: right;
             background: #f2f2f2;
     width: 300px;
           }
+          .left-menu span,
           .left-menu a{
     text-decoration: none;
     text-transform: uppercase;
@@ -1362,6 +1367,7 @@ float: right;
     padding-right: 25px;
     background: url(../img/other/arrow-menu.png)no-repeat right center;
           }
+          .left-menu span,
           .left-menu a:hover{
     padding-right: 45px;
 
@@ -1813,107 +1819,85 @@ padding-bottom: 25px;
   bottom: 20px;
   left: 2px;
 }
-.info-invest-left{
-  float: left;
-  display: block;
-  width: 48.5%;
+.info-invest-page:nth-child(2n){
+  background: #f2f2f2;
 }
 .info-nvest-text{
   height: 70px;
-  border-bottom: 10px solid #F2F2F2;
   font-size: 18px;
   padding: 20px 0;
   position: relative;
   padding-top: 50px;
+  text-align: left;
+  color: #498ec5;
+  text-transform: uppercase;
 }
 .info-nvest-text a{
   color: #8dc63f;
   text-decoration: none;
+  text-align: right;
 }
 .info-nvest-text a:hover{
   text-decoration: underline;
 }
 .info-nvest-text span{
+  text-align: right;
   position: absolute;
   font-size: 23px;
   top: 0px;
   font-weight: bold;
   height: 30px;
   width: 30px;
-  color: white;
   line-height: 1.3;
 }
 .info-invest-left .info-nvest-text{
-  text-align: center;
-}
-.info-invest-left .info-nvest-text:before{
-  content: '';
-  background: url(../img/other/arrow-left-h-invest.png)no-repeat;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 50px;
-  width: 35px;  
-  z-index: 5;
-}
-.info-invest-left .info-nvest-text:nth-child(2n):before{
-  content: '';
-  background: url(../img/other/arrow-left-invest.png)no-repeat;
-  position: absolute;
-  right: 0%;
-  bottom: 0;
-  height: 50px;
-  width: 35px;  
-  z-index: 5;
+  text-align: right;
 }
 .info-invest-left .info-nvest-text:last-child:before{background: none;}
 .info-invest-left .info-nvest-text span{
   left: 0px;
   background: #117bb9;
 }
-
 .info-invest-left .info-nvest-text:nth-child(2n) span{
   background: white;
   color:#117bb9;
 }
-.info-invest-left .info-nvest-text:nth-child(2n){
-  background: #117bb9;
-  color: white;
+.info-invest-page 
+
+.info-invest-left{
+  float: left;
+  text-align: right;
+  display: block;
+  width: 47%;
+  height: 130px;
 }
 .info-invest-center{
   float: left;
   display: block;
-  width: 3%;
-  background: #F2F2F2;
-  height: 650px;
+  width: 6%;
+  /*background: #F2F2F2;*/
+  height: 130px;
+text-align: center;
+line-height:40px;
+font-size: 26px;
+}
+.info-invest-center span{
+  background: #117bb9;
+  height: 45px;
+  width: 45px;
+  color: white;
+  display: inline-block;
+  margin-top: 45px;
+}
 
+.info-invest-page:nth-child(2n) .info-invest-center span{
+  background: #8ec63f;
 }
 .info-invest-right{
   float: right;
   display: block;
-  width: 48.5%;
-}
-
-.info-invest-right .info-nvest-text:before{
-  content: '';
-  background: url(../img/other/arrow-right-invest.png)no-repeat;
-  position: absolute;
-  left: 0%;
-  bottom: 0;
-  height: 50px;
-  width: 35px;  
-  z-index: 5;
-}
-
-.info-invest-right .info-nvest-text:nth-child(2n):before{
-  content: '';
-  background: url(../img/other/arrow-right-h-invest.png)no-repeat;
-  position: absolute;
-  left: 0%;
-  bottom: 0;
-  height: 50px;
-  width: 35px;  
-  z-index: 5;
+  width: 47%;
+  height: 130px;
 }
 .info-invest-right .info-nvest-text span{
   right: 0px;
@@ -1921,18 +1905,6 @@ padding-bottom: 25px;
   color: #117bb9;
 }
 
-.info-invest-right .info-nvest-text:nth-child(2n) span{
-  background: #117bb9;
-  color:white;
-}
-.info-invest-right .info-nvest-text:first-child{
-  margin-top: 75px;
-}
-.info-invest-right .info-nvest-text{
-  text-align: center;
-  background: #117bb9;
-  color: white;
-}
 .info-invest-right .info-nvest-text:nth-child(2n){
   background: white;
   color: black;
@@ -1947,10 +1919,16 @@ padding-bottom: 25px;
   body {background:#FFF; color:#000;}
   a {text-decoration: underline; color:#00F;}
 }
-.map-invest{
+.map-info{
+  position: absolute;
+  height: 100%;
   width: 100%;
-  height: 500px;
+  left: 0;
+  top: 0; 
 }
-.qqvbed-tJHJj{
-  background-color: green;
+.map-page{
+  position: relative;
+}
+.info-invest-page .contant-block{
+  height: 130px
 }
