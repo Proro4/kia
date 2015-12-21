@@ -27,9 +27,9 @@ $(document).ready(function(){
 			}
 	})
 
-	$('.gm-style-iw').parent().css({'border':'1px solid rgb(17, 123, 185)','border-radius':'0 0 7px 7px'})
-	$('.gm-style-iw .title').css({'color':'#6ea3cd','text-transform':'uppercase'});
-	$('.gm-style-iw .link a').css({'text-decoration':'none','font-size':'12px','color':'#828282'})
+	$('.gm-style-iw').parent().css({'border':'1px solid rgb(17, 123, 185) !important','border-radius':'0 0 7px 7px !important'})
+	$('.gm-style-iw .title').css({'color':'#6ea3cd !important','text-transform':'uppercase !important'});
+	$('.gm-style-iw .link a').css({'text-decoration':'none !important','font-size':'12px !important','color':'#828282 !important'})
 	$('.gm-style-iw').parent().find('div:eq(3) img').attr('src');
 
 	$('.block-12 br').css('display','none');
