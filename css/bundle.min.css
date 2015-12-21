@@ -1813,7 +1813,6 @@ padding-bottom: 25px;
 .info-invest-page{
   position: relative;
   bottom: 20px;
-  left: 2px;
 }
 .info-invest-page:nth-child(2n){
   background: #f2f2f2;
@@ -1935,7 +1934,11 @@ font-size: 26px;
   display: inline-block;
   width: 300px;
   padding-left: 50px;
-  overflow: auto;
+  max-height: 550px;
+  overflow-y: auto;
+    position: absolute;
+    left: 0;
+    top: 140px;
 }
 .menu-map>li{
   padding-bottom: 25px;
@@ -1962,12 +1965,46 @@ font-size: 26px;
 }
 .menu-map>li>ul{
   padding-left: 65px;
-}.in-sport{
+}
+.in-sport{
   background: url(../img/icon/sport-icon.png) no-repeat left center;
 }
 .in-social{
   background: url(../img/icon/social-icon.png) no-repeat left center;
 }
-.gm-style-iw{
 
+.in-ecology{
+  background: url(../img/icon/ecology-icon.png) no-repeat left center;
+}
+.in-energy{
+  background: url(../img/icon/energy-icon.png) no-repeat left center;
+}
+.in-house{
+  background: url(../img/icon/house-icon.png) no-repeat left center;
+}
+.in-med{
+  background: url(../img/icon/med-icon.png) no-repeat left center;
+}
+.in-people{
+  background: url(../img/icon/people-icon.png) no-repeat left center;
+}
+.in-util{
+  background: url(../img/icon/util-icon.png) no-repeat left center;
+}
+
+.map-menu-close{
+      font-family: monospace;
+      font-size: 26px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 50px;
+      line-height: 50px;
+      background: rgba(0,0,0,.2);
+      height: 50px;
+      text-align: center;
+      padding-bottom: 0 !important;
+      color: white;
+      cursor: pointer;
+      transition:0.3s all;
 }

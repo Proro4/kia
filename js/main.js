@@ -1,5 +1,20 @@
 $(document).ready(function(){
 
+	$('.map-menu-close').on('click',function(){
+		if($('.menu-map').width() === 300){
+			$('.menu-map').animate({'left':'-300px'})
+			$(this).css('transform','rotate(180deg)')
+		}else if($('.menu-map').width() === 245){
+			$('.menu-map').animate({'left':'-215px'})
+			$(this).css('transform','rotate(180deg)')
+		}
+	})
+		$('.map-menu-close').on('click',function(){
+			if($('.menu-map').css('left') != "0px"){
+			$('.menu-map').animate({'left':'0px'})
+			$(this).css('transform','rotate(0deg)')
+		}
+		})
 
 	$('.menu-map>li>span').on('click',function(){
 		if($(this).parent().find('ul>li').height() == 0){
@@ -352,3 +367,4 @@ $(window).resize(function(){
 		$('.slider').css('height','514px');
 	}
 })
+

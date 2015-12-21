@@ -37,6 +37,8 @@
     
 }
 @media screen and (max-width: 1000px){
+	.menu-map{top:160px; padding-left: 15px;}
+
 	.Gmap{width: 100%;}
 	.news-detal-left{width: 280px;}
 	.news-detal-right{width: 460px;}
@@ -92,6 +94,15 @@
 }
 
 @media screen and (max-width: 800px){
+	.menu-map>li>ul{
+		padding-left: 25px;
+	}
+	.menu-map{
+		top:175px;
+		width: 245px;
+	}
+
+
 .lightbox i{top:50px;}
 	.document-page{margin-top: 60px;
 	}
@@ -170,6 +181,7 @@
 }
 
 @media screen and (max-width: 720px){
+	.menu-map{top: 280px;}
 	.map-block-info a{width: 275px; font-size: 16px;}
 	.map-block-info{padding-left: 5%;}
 	.Gmap{width: 90%; margin-left:5%;}
@@ -222,6 +234,7 @@
    	}
 }
 @media screen and (max-width: 585px){
+	.menu-map{top: 255px;}
 	
 	.text-page img{
 		padding: 0 15px;
@@ -256,6 +269,8 @@
     .contant-block .ad-contest-block{width: 90%;}
 }
 @media screen and (max-width: 460px){
+	.menu-map>li span{font-size: 21px;}
+	.menu-map>li>ul>li{font-size: 16px;}
 
 .printer-link{display: block;}
 	.review-link, .down-link{margin: 5px;}
@@ -275,6 +290,7 @@
 }
 }
 @media screen and (max-width: 410px){
+	.menu-map{top: 280px;}
 	.news-blocks .info-block .all-project{background: white;}
 	.invest-project .all-project{background: none;}
 	  .contant-block .contest-block>.contest-link{width: 50%;}
