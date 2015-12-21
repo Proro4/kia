@@ -1,5 +1,20 @@
 $(document).ready(function(){
 
+
+	$('.menu-map>li>span').on('click',function(){
+		if($(this).parent().find('ul>li').height() == 0){
+			$(this).parent().find('ul>li').animate({'height':'25px','padding':'5px 2px'},100);
+			}
+			else{
+			$(this).parent().find('ul>li').animate({'height':'0','padding':'0'},100);
+			}
+	})
+
+	$('.gm-style-iw').parent().css({'border':'1px solid rgb(17, 123, 185)','border-radius':'0 0 7px 7px'})
+	$('.gm-style-iw .title').css({'color':'#6ea3cd','text-transform':'uppercase'});
+	$('.gm-style-iw .link a').css({'text-decoration':'none','font-size':'12px','color':'#828282'})
+	$('.gm-style-iw').parent().find('div:eq(3) img').attr('src');
+
 	$('.block-12 br').css('display','none');
 
 	// lightbox for document

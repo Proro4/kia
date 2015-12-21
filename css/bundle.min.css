@@ -1220,10 +1220,6 @@ overflow: hidden;}
     padding: 3px 5px 4px 2px;
 }
 
-.cos-link .twit a span{ border-right:2px solid #00b6ec; }
-.cos-link .fb a span{ border-right:2px solid #425497; }
-.cos-link .vk a span{ border-right:2px solid #536e8f; }
-.cos-link .gplus a span{ border-right:2px solid #de4241; }
 .cos-link li a span {
     background: white;
     color: #013c5e;
@@ -1931,4 +1927,47 @@ font-size: 26px;
 }
 .info-invest-page .contant-block{
   height: 130px
+}
+.menu-map{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #E5ECF3;
+  display: inline-block;
+  width: 300px;
+  padding-left: 50px;
+  overflow: auto;
+}
+.menu-map>li{
+  padding-bottom: 25px;
+}
+.menu-map>li span{
+  text-transform: uppercase;
+  font-size: 24px;
+  cursor: pointer;
+  padding:10px 0px 10px 45px;
+}
+
+.menu-map>li>ul>li{
+  font-size: 22px;
+  cursor: pointer;
+  height: 0;
+  overflow: hidden;
+    text-transform: none;
+
+}
+
+.menu-map>li>ul>li:hover{
+  background: #117bb9;
+  color: white;
+}
+.menu-map>li>ul{
+  padding-left: 65px;
+}.in-sport{
+  background: url(../img/icon/sport-icon.png) no-repeat left center;
+}
+.in-social{
+  background: url(../img/icon/social-icon.png) no-repeat left center;
+}
+.gm-style-iw{
+
 }
