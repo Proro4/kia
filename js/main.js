@@ -15,13 +15,15 @@ $(document).ready(function(){
 			$(this).css('transform','rotate(0deg)')
 		}
 		})
-
 	$('.menu-map>li>span').on('click',function(){
 		if($(this).parent().find('ul>li').height() == 0){
-			$(this).parent().find('ul>li').animate({'height':'25px','padding':'5px 2px'},100);
+			var heightP = $(this).parent().find('ul>li>p').height()
+			$(this).parent().find('ul>li').animate({'height':heightP+10,'padding':'5px 2px'},100);
+			$(this).parent().find('ul>li').css('border-bottom', '1px solid white')
 			}
 			else{
 			$(this).parent().find('ul>li').animate({'height':'0','padding':'0'},100);
+			$(this).parent().find('ul>li').css('border-bottom', '0')
 			}
 	})
 
