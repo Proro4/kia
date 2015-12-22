@@ -268,7 +268,7 @@ $('.lang .lang-but').on('click',function(){
 		var itemsLi = $('.menu-head-popup li').length;
 		var heightli = $('.menu-head-popup li:eq(1)').height()
 		$('.menu-head-popup').css('height',"48px");
-		var heightMenu = $('.menu-head-popup li:eq(2)').height()*(itemsLi+1);
+		var heightMenu = (44*(itemsLi)+15);
 		$('.menu-head-popup').click(function(){
 			if(
 		$('.menu-head-popup').height() == 48){
