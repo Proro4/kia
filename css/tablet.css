@@ -176,17 +176,35 @@
 	.slide-text{display: none;}
 	.invest-project ul li a{text-align: center;}
 	.menu-head-popup a{padding: 15px 0px;}
-	.map-link .map-block .all-links,.news-blocks .info-block .all-links,.success-story .all-links, .contant-block .all-links{width: 80%;display: block; margin:15 auto;}
+	.map-link .map-block .all-links,.news-blocks .info-block .all-links,.success-story .all-links, .contant-block .all-links{width: 80%;display: block; margin:15px auto; clear:both;}
  .contant-block.gray-block.arrow-gray.form-page{ top: 35px;}
 }
 
 @media screen and (max-width: 720px){
+	.date-block,.releases-block.press-page a, .releases-block.press-page p{padding-left: 5px;}
+	.text-page h2, .text-page p{
+		padding-top: 25px;
+	}
+	.text-page img,.contant-block .ad-contest-block img{
+		display: none;
+	}
+	.left-preg img,.news-detal-img img,.contant-block .contest-block img{
+		display: none;
+	}
+	.title-page{
+		font-size: 24px;
+	}
+	.releases-block.press-page img{
+		display: none;
+	}
+	.releases-block.press-page{margin-top: 90px;}
+	.date-block{height: 90px;}
 	.menu-map{top: 280px;}
 	.map-block-info a{width: 275px; font-size: 16px;}
 	.map-block-info{padding-left: 5%;}
 	.Gmap{width: 90%; margin-left:5%;}
 	.news-detal-left{width: 90%; margin-left:5%;}
-	.news-detal-right {width: 90%; margin-left:5%;}
+	.news-detal-right {width: 90%; margin-left:5%;     margin-top: 35px;}
 	.cos-link ul{display: block;}
 	.empty-block-header{height: 133px;}
 	  .footer i:last-child{ float: left;}
@@ -235,16 +253,9 @@
 }
 @media screen and (max-width: 585px){
 	.menu-map{top: 255px;}
-	
-	.text-page img{
-		padding: 0 15px;
-	}
 	.doc-block{
 		padding-bottom: 25px;
 		border-bottom: 1px solid black;
-	}
-	.releases-block.press-page img{
-		clear: both;
 	}
 	.releases-block.press-page a,.releases-block.press-page p{float: left;}
 	.empty-block-header{height: 105px;}
@@ -269,6 +280,7 @@
     .contant-block .ad-contest-block{width: 90%;}
 }
 @media screen and (max-width: 460px){
+	.title-page, .breadcrumb {   bottom: -39px;}
 	.menu-map>li span{font-size: 21px;}
 	.menu-map>li>ul>li{font-size: 16px;}
 

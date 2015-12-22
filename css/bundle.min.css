@@ -968,7 +968,7 @@ overflow: hidden;}
     width: 100%;
     text-align: left;
 }
-.menu-head-popup span:hover{background:  url(../img/other/menu-popup.png)no-repeat,white;}
+.menu-head-popup>span:hover{background:  url(../img/other/menu-popup.png)no-repeat,white;}
 .menu-head-popup a{
       transition: 0.2s all;
     padding: 15px 8px;
@@ -1993,6 +1993,9 @@ font-size: 26px;
 }
 .in-util{
   background: url(../img/icon/util-icon.png) no-repeat left center;
+}
+.in-transport{
+  background: url(../img/icon/transport-icon.png) no-repeat left center;
 }
 
 .map-menu-close{
