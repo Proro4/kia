@@ -311,6 +311,7 @@ $('.lang .lang-but').on('click',function(){
 
 	}
 	if($(window).width() <= 800){
+		$('.info-invest-page:eq(0)').css({'margin-top':'55px'})
 			$('.slider div').removeClass('containers');
 		$('.empty-block').css('height','515px');
 	}

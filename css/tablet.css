@@ -94,6 +94,9 @@
 }
 
 @media screen and (max-width: 800px){
+	.info-nvest-text{font-size: 16px;}
+	.info-invest-left,.info-invest-center,.info-invest-right{height: 150px;}
+	.info-invest-left .info-nvest-text,.info-invest-right .info-nvest-text{text-align: center;}
 	.menu-map>li>ul{
 		padding-left: 25px;
 	}
@@ -181,6 +184,8 @@
 }
 
 @media screen and (max-width: 720px){
+	.arrow-white:before,.arrow-gray:before{z-index: 1;}
+	.title-page ol{ padding-left: 5px;}
 	.date-block,.releases-block.press-page a, .releases-block.press-page p{padding-left: 5px;}
 	.text-page h2, .text-page p{
 		padding-top: 25px;
@@ -252,6 +257,12 @@
    	}
 }
 @media screen and (max-width: 585px){
+	.info-invest-center span{
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+		font-size: 22px;
+	}
 	.menu-map{top: 255px;}
 	.doc-block{
 		padding-bottom: 25px;
@@ -280,6 +291,15 @@
     .contant-block .ad-contest-block{width: 90%;}
 }
 @media screen and (max-width: 460px){
+	.info-invest-left, .info-invest-center, .info-invest-right{height: 130px;}
+	.info-nvest-text{font-size: 14px; padding-top: 20px;}
+	.info-invest-center span{
+		height: 25px;
+		width: 25px;
+		line-height: 25px;
+		font-size: 18px;
+	}
+
 	.title-page, .breadcrumb {   bottom: -39px;}
 	.menu-map>li span{font-size: 21px;}
 	.menu-map>li>ul>li{font-size: 16px;}
