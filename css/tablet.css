@@ -181,6 +181,10 @@
 	.menu-head-popup a{padding: 15px 0px;}
 	.map-link .map-block .all-links,.news-blocks .info-block .all-links,.success-story .all-links, .contant-block .all-links{width: 80%;display: block; margin:15px auto; clear:both;}
  .contant-block.gray-block.arrow-gray.form-page{ top: 35px;}
+
+	.invest-project ul li span{width: 100%;
+    text-align: center;
+    padding:12px 0 12px 0;}
 }
 
 @media screen and (max-width: 720px){
