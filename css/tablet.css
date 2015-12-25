@@ -37,6 +37,11 @@
     
 }
 @media screen and (max-width: 1000px){
+	
+.right-preg{
+      float: right;
+    width: 50%;
+}
 	.menu-map{top:160px; padding-left: 15px;}
 
 	.Gmap{width: 100%;}

@@ -1436,7 +1436,7 @@ background:#117bb9;
 .name-preg{
 background:#8dc63f;
 }
-.right-preg a.all-links{padding:0;margin-right:5px;}
+.right-preg a.all-links{padding:0;margin-right:5px; width: 285px;}
 .right-preg a{
   display: block;
   text-decoration: none;
@@ -2027,4 +2027,8 @@ font-size: 26px;
 }
 .balloon .link a:hover{
   text-decoration: underline;
+}
+.right-preg{
+      float: right;
+    width: 63%;
 }
