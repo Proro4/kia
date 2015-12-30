@@ -140,7 +140,7 @@
 .wrapper .header{	height: 65px;}
 .wrapper .header .tel,.wrapper .header .info{width: 155px;}
 	.containers{width: 600px;}
-	.wrapper .header .head-links{float: none;     width: 28%;
+	.wrapper .header .head-links{float: none;     width: 28%; margin-top: 40px;
     text-align: center; padding: 0;
     display: inline-block;}
 	.wrapper .header-bottom .mini-width .lang,.search{width: 100%; text-align: center;}
@@ -189,7 +189,7 @@
 	.slide-text{display: none;}
 	.invest-project ul li a{text-align: center;}
 	.menu-head-popup a{padding: 15px 0px;}
-	.map-link .map-block .all-links,.news-blocks .info-block .all-links,.success-story .all-links, .contant-block .all-links{width: 80%;display: block; margin:15px auto; clear:both;}
+	.map-link .map-block .all-links,.news-blocks .info-block .all-links,.success-story .all-links, .contant-block .all-links{width: 80%;display: block; margin:15px auto; clear:both; float: none;}
  .contant-block.gray-block.arrow-gray.form-page{ top: 35px;}
 
 	.invest-project ul li span{width: 100%;
@@ -334,6 +334,7 @@
     top: 50px;}
     .wrapper .header .tel, .wrapper .header .info{width: 134px; padding-left: 10px; text-align: left;}
     .project-block {
+
     height: auto;
     margin-bottom: 20px;
     border-bottom: 1px solid gainsboro;
@@ -341,10 +342,15 @@
 }
 }
 @media screen and (max-width: 410px){
+	.contant-block .contest-block p {
+    padding-left: 10px;
+    width: 90%;
+    margin-top: 0;
+}
 	.menu-map{top: 280px;}
 	.news-blocks .info-block .all-project{background: white;}
 	.invest-project .all-project{background: none;}
-	  .contant-block .contest-block>.contest-link{width: 50%;}
+	  .contant-block .contest-block>.contest-link{width:90%;     font-size: 12px;    margin-top: 5px;}
 	.news-blocks .info-block .info{height: 200px;}
 	.news-blocks .info-block .all-project{margin-top: 50px;}
 	.wrapper .header-bottom .mini-width .lang{display: none;}

@@ -1,7 +1,12 @@
 $(document).ready(function(){
 
 
-
+	$('.delivery-block input[type="submit"]').on('click',function(){
+		$('.inform-window').animate({'top':'150px'},500);
+		setTimeout(function () {
+	          $('.inform-window').animate({'top':'-250px'},500);
+		}, 2000);
+	})
 
 	$('.map-menu-close').on('click',function(){
 		if($('.menu-map').width() === 300){

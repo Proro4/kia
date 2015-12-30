@@ -1,6 +1,6 @@
 /*FONTS*/
 @font-face {font-family: 'MyriadPro-Bold';src: url(../fonts/MyriadPro-Bold.otf);} 
-@font-face {font-family: 'MyriadPro';src:font-family: Myriad Pro, Lucida Sans, sans serif;tf);} 
+@font-face {font-family: 'MyriadPro';src:url(../fonts/MyriadPro-Regular.otf);} 
 @font-face {font-family: 'MyriadPro-Semibold';src: url(../fonts/MyriadPro-Semibold.otf);} 
 /*CLEARFIX*/
 :focus {
@@ -13,7 +13,7 @@ body {
   line-height: 1;
   color: black;
   background: white;
-      font-family: Calibri, Tahoma, sans-serif; }
+      font-family: Calibri, Tahoma, sans-serif, Arial; }
 
 table {
   position: relative;
@@ -61,7 +61,7 @@ blockquote, q {
       float: left;
       color: white;
       font-size: 14px;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       line-height: 45px;
       width: 165px;
       text-align: right;
@@ -71,7 +71,7 @@ blockquote, q {
       float: left;
       color: white;
       font-size: 14px;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       line-height: 45px;
       width: 165px;
       text-align: right;
@@ -83,7 +83,7 @@ blockquote, q {
       line-height: 45px;
       padding: 0 20px;
       font-size: 14px;
-      font-family: Calibri, Tahoma, sans-serif; }
+      font-family: Calibri, Tahoma, sans-serif, Arial; }
     .wrapper .header .head-links:hover {
       text-decoration: underline; }
   .wrapper .header-bottom {
@@ -114,7 +114,7 @@ blockquote, q {
           color: white;
           text-transform: uppercase;
           font-size: 14px;
-          font-family: Calibri, Tahoma, sans-serif; ';
+          font-family: Calibri, Tahoma, sans-serif, Arial; ';
           text-decoration: none;
           vertical-align: middle; }
           .wrapper .header-bottom .mini-width .lang .lang-select img {
@@ -152,7 +152,7 @@ blockquote, q {
               text-decoration: none; 
               padding-left: 15px;
               align-items: center ;
-              font-family: Myriad Pro, Lucida Sans, sans serif;
+              font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
               font-size: 14px;
               display: flex;
                width: 100%;
@@ -173,7 +173,7 @@ blockquote, q {
             text-decoration: none;
             text-transform: uppercase;
             font-size: 13px;
-            font-family: Myriad Pro, Lucida Sans, sans serif; }
+            font-family: Myriad Pro, Lucida Sans, sans serif, Arial; }
             .wrapper .header-bottom .mini-width .menu-head>li>span:hover,
           .wrapper .header-bottom .mini-width .menu-head>li>a.active-menu,
           .wrapper .header-bottom .mini-width .menu-head>li>a:hover {
@@ -246,7 +246,7 @@ blockquote, q {
         .wrapper .slider .slide-text .slide-all-text .slide-text-block {
           font-size: 17px;
           color: white;
-          font-family: 'MyriadPro-Semibold';
+          font-family: 'MyriadPro-Semibold', Arial;
           text-transform: uppercase;
           float: left;
           text-align: left; }
@@ -287,7 +287,7 @@ blockquote, q {
     color: white;
     text-align: center;
     font-size: 24px;
-    font-family: 'MyriadPro-Semibold';
+    font-family: 'MyriadPro-Semibold', Arial;
     line-height: 57px; }
  
   .invest-project ul li span,
@@ -297,7 +297,7 @@ blockquote, q {
     color: black;
     text-decoration: none;
     font-size: 16px;
-    font-family: Myriad Pro, Lucida Sans, sans serif;
+    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
     text-transform: uppercase;
     width: 79%;
     padding-left: 75px;
@@ -365,7 +365,7 @@ blockquote, q {
     border: 1px solid #17181d;
     color: black;
     width: 175px;
-    font-family: Myriad Pro, Lucida Sans, sans serif;
+    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
     padding-right: 30px; }
   .search input[type='submit'] {
     cursor: pointer;
@@ -391,7 +391,7 @@ blockquote, q {
     font-size: 10px;
     text-align: center;
     padding-top: 65px;
-    font-family: Myriad Pro, Lucida Sans, sans serif; }
+    font-family: Myriad Pro, Lucida Sans, sans serif, Arial; }
   .logo img {
     display: block;
     padding-top: 5px;
@@ -421,7 +421,7 @@ blockquote, q {
     display: inline-block;
     font-size: 12.29px;
     color: white;
-    font-family: Myriad Pro, Lucida Sans, sans serif;
+    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
     padding-left: 5px; }
 
 .logo2:hover img {
@@ -446,7 +446,7 @@ bottom: 2px;}
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
-    font-family: 'MyriadPro-Semibold';
+    font-family: 'MyriadPro-Semibold', Arial;
     color: #013c5f;
     margin-bottom: 25px; 
     width: 980px;
@@ -466,14 +466,14 @@ bottom: 2px;}
       text-transform: uppercase;
       color: #0072b4;
       font-size: 14px;
-      font-family: Calibri, Tahoma, sans-serif;;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       margin: 5px 0; }
       .contant-block .ad-contest-block a {
       font-size: 14px;
       text-transform: uppercase;
       margin: 5px 0; 
         color: #0072b4;
-        font-family: Calibri, Tahoma, sans-serif;;
+        font-family: Calibri, Tahoma, sans-serif, Arial;
         text-decoration: none; 
         transition: .3s all;}
         .contant-block .ad-contest-block a:hover{
@@ -498,7 +498,7 @@ bottom: 2px;}
       text-transform: uppercase;
       font-size: 18px;
       border:3px solid #013c5e;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       margin-right: 20px;
       margin-bottom: 40px; }
     .contant-block .ad-contest-block .all-links:hover {
@@ -525,7 +525,7 @@ bottom: 2px;}
       line-height: 20px;
       background: #013c5e;
       color: white;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       float: left;
       margin-left: 10px; }
     .contant-block .contest-block>.contest-link {
@@ -540,14 +540,14 @@ bottom: 2px;}
       font-size: 14px;
       text-decoration: none;
       color: #0072b4;
-      font-family: Calibri, Tahoma, sans-serif;; }
+      font-family: Calibri, Tahoma, sans-serif, Arial; }
        .contant-block .contest-block>a:hover{
         text-decoration: underline;
       }
     .contant-block .contest-block p {
       margin-top: 10px;
       margin-left: 10px;
-      font-family: Calibri, Tahoma, sans-serif;;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       font-size: 14px;
       float: left;
       width: 70%; }
@@ -585,7 +585,7 @@ bottom: 2px;}
     .map-link .map-block .map-title {
       color: white;
       font-size: 30px;
-      font-family: 'MyriadPro-Semibold';
+      font-family: 'MyriadPro-Semibold', Arial;
       text-align: center;
       margin-top: 125px;
       margin-bottom: 75px; }
@@ -597,7 +597,7 @@ bottom: 2px;}
   padding-top: 20px;
   position: relative; }
   .news-blocks .news-title {
-    font-family: 'MyriadPro-Semibold';
+    font-family: 'MyriadPro-Semibold', Arial;
     font-size: 30px;
     color: #013c5e;
     text-align: center;
@@ -616,7 +616,7 @@ bottom: 2px;}
         margin-right: 10px;
         display: inline-block;
         color: white;
-          font-family: Calibri, Tahoma, sans-serif;;
+          font-family: Calibri, Tahoma, sans-serif, Arial;
         font-size: 28px;
         line-height: 15px;
         text-align: center;
@@ -629,14 +629,14 @@ bottom: 2px;}
   vertical-align: middle;}
         .block-12 span {
           font-size: 16px;
-          font-family: Calibri, Tahoma, sans-serif;
+          font-family: Calibri, Tahoma, sans-serif, Arial;
     line-height: 1.2;
     display: list-item; }
         .info-link {
         transition:.3s all;
         text-transform: uppercase;
         font-size: 14px;
-        font-family: Calibri, Tahoma, sans-serif;;
+        font-family: Calibri, Tahoma, sans-serif, Arial;
         text-decoration: none;
         color: #117bb9;
         padding-right: 20px;
@@ -648,7 +648,7 @@ bottom: 2px;}
       text-decoration:underline;
      }
       .info p {
-          font-family: Calibri, Tahoma, sans-serif;;
+          font-family: Calibri, Tahoma, sans-serif, Arial;
         display: block;
         margin-top: 15px;
         padding-right: 20px; }
@@ -668,7 +668,7 @@ bottom: 2px;}
  
   .success-story .story-title {
     padding-top: 35px;
-    font-family: 'MyriadPro-Semibold';
+    font-family: 'MyriadPro-Semibold', Arial;
     font-size: 30px;
     color: #013c5e;
     text-align: center;
@@ -707,7 +707,7 @@ bottom: 2px;}
             left: 0;
             color: white;
             background: rgba(0, 0, 0, 0.7);
-            font-family: Calibri, Tahoma, sans-serif;;
+            font-family: Calibri, Tahoma, sans-serif, Arial;
             font-size: 14px;
             padding: 7px; }
           .success-story .carusel .all-carusel .carusel-block .carusel-item a{
@@ -718,7 +718,7 @@ bottom: 2px;}
             left: 0;
             color: white;
             background: rgba(0, 0, 0, 0.7);
-            font-family: Calibri, Tahoma, sans-serif;;
+            font-family: Calibri, Tahoma, sans-serif, Arial;
             font-size: 14px;
             padding: 7px;
             display: block;
@@ -759,12 +759,12 @@ bottom: 2px;}
     .footer .inform-block b {
       display: block;
       font-size: 25px;
-      font-family: 'MyriadPro-Semibold';
+      font-family: 'MyriadPro-Semibold', Arial;
       padding-top: 20px;
       padding-bottom: 20px;
       text-transform: uppercase; }
     .footer .inform-block p {
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       font-size: 16px;
       color: #e6e9ed;
       line-height: 1.6; }
@@ -775,7 +775,7 @@ bottom: 2px;}
     .footer .Subscription b {
       display: block;
       font-size: 25px;
-      font-family: 'MyriadPro-Semibold';
+      font-family: 'MyriadPro-Semibold', Arial;
       padding-top: 20px;
       padding-bottom: 20px;
       text-transform: uppercase; }
@@ -785,7 +785,7 @@ bottom: 2px;}
       width: 170px;
       height: 25px;
       color: black;
-      font-family: Myriad Pro, Lucida Sans, sans serif;
+      font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
       float: left; }
     .footer .Subscription input[type="submit"] {
       cursor: pointer;
@@ -793,7 +793,7 @@ bottom: 2px;}
       height: 34px;
       margin-left: 2px;
       color: #dbdbdb;
-      font-family: Myriad Pro, Lucida Sans, sans serif;
+      font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
       border: 2px solid #dbdbdb;
       background: none; 
       transition:0.3s all;}
@@ -806,7 +806,7 @@ bottom: 2px;}
     line-height: 1.7;
     font-style: normal;
     text-align: center;
-    font-family: Calibri, Tahoma, sans-serif;
+    font-family: Calibri, Tahoma, sans-serif, Arial;
     color: #dbdbdb;
     float: left;
     font-size: 12px;
@@ -831,7 +831,7 @@ height: 150px;}
     bottom: -45px;
     color: white;
     text-decoration: none;
-    font-family: Calibri, Tahoma, sans-serif;
+    font-family: Calibri, Tahoma, sans-serif, Arial;
     font-size: 18px;
     text-transform: uppercase;
     display: inline-block;
@@ -853,7 +853,7 @@ height: 150px;}
     bottom: -53px;
     color: white;
     text-decoration: none;
-    font-family: 'arial';
+    font-family: 'arial', Arial;
     font-size: 18px;
     text-transform: uppercase;
     display: inline-block;
@@ -877,7 +877,7 @@ height: 150px;}
   .block-links-three a {
     color: white;
     text-decoration: none;
-    font-family: 'arial';
+    font-family: 'arial', Arial;
     font-size: 18px;
     text-transform: uppercase;
     display: inline-block;
@@ -964,7 +964,7 @@ margin-top: 50px; text-align: center;
 border-bottom: 1px solid black;
 overflow: hidden;}
 .menu-head-popup .first-head-pop{
-    font-family: Myriad Pro, Lucida Sans, sans serif;
+    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
     padding: 15px 8px;
     float: left;
     background: url(../img/other/menu-popup.png)no-repeat;
@@ -982,7 +982,7 @@ overflow: hidden;}
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: Myriad Pro, Lucida Sans, sans serif;
+    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
 
 }
 .menu-head-popup a:hover {
@@ -993,7 +993,7 @@ overflow: hidden;}
 .tel.mobile{ float: left;
     color: white;
     font-size: 14px;
-    font-family: Calibri, Tahoma, sans-serif;
+    font-family: Calibri, Tahoma, sans-serif, Arial;
     line-height: 45px;
     width: 50%;
     text-align: center;}
@@ -1001,7 +1001,7 @@ overflow: hidden;}
     float: left;
     color: white;
     font-size: 14px;
-    font-family: Calibri, Tahoma, sans-serif;
+    font-family: Calibri, Tahoma, sans-serif, Arial;
     line-height: 45px;
     width: 50%;
     text-align: center;
@@ -1078,7 +1078,7 @@ overflow: hidden;}
     line-height: 50px;
     text-transform: uppercase;
     font-size: 18px;
-    font-family: Calibri, Tahoma, sans-serif;
+    font-family: Calibri, Tahoma, sans-serif, Arial;
     transition:0.3s all;
     margin-bottom: 40px;}
 
@@ -1093,7 +1093,7 @@ overflow: hidden;}
       position: relative;
       bottom: 5px;
       font-size: 14px;
-    font-family: Calibri, Tahoma, sans-serif;
+    font-family: Calibri, Tahoma, sans-serif, Arial;
     color: white;
     line-height: 25px;
     }
@@ -1105,7 +1105,7 @@ overflow: hidden;}
     .title-page{
       text-transform: uppercase;
       font-size: 30px;
-    font-family:'MyriadPro-Semibold', Lucida Sans, sans serif;
+    font-family:'MyriadPro-Semibold', Lucida Sans, sans serif, Arial;
     color: #013c5e;
     text-align: center;
     padding: 15px 0;
@@ -1125,7 +1125,7 @@ overflow: hidden;}
     .text-page {
       /*margin-top: 25px;*/
       font-size: 16px;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       line-height: 18px;
       padding-bottom: 25px;
       display: block;
@@ -1168,7 +1168,7 @@ overflow: hidden;}
       line-height: 35px;
       font-size: 16px; padding-left: 35px;
       background: url(../img/icon/print.png)no-repeat;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
   } 
 
   /*form-page*/
@@ -1218,7 +1218,7 @@ overflow: hidden;}
     text-decoration: none;
     color: #013c5e;
     text-transform: uppercase;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
     font-size: 14px;
     line-height: 30px;
     margin-right: 3px;
@@ -1269,7 +1269,7 @@ overflow: hidden;}
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
-    font-family:'MyriadPro-Semibold', Lucida Sans, sans serif;
+    font-family:'MyriadPro-Semibold', Lucida Sans, sans serif, Arial;
     color: black;
     transition:.3s all;
     margin-bottom: 15px;
@@ -1286,14 +1286,14 @@ overflow: hidden;}
 .project-block p{
     float: left;
     width: 79%;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       font-size: 14px;
 }
 .date-block{
   float: left;
   height: 120px;
   width: 70px;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
       font-size: 14px;
 }
 .date-block p{
@@ -1328,7 +1328,7 @@ float: right;
 }
      .pagination li{ display: inline-block; float: left;}
      .pagination li a{ color: #013c5e; display: inline-block; transition:.2s all; height: 25px; width: 25px; line-height: 25px;
-      font-family: Calibri, Tahoma, sans-serif; text-decoration: none; padding: 4px; }
+      font-family: Calibri, Tahoma, sans-serif, Arial; text-decoration: none; padding: 4px; }
      .pagination li a:hover{background: #99b6c1; color:white;}
      .print-link a:hover{text-decoration: underline;}
      .news-block{ padding: 10px 0; position: relative; clear: both;}
@@ -1686,7 +1686,7 @@ margin: 25px 0;
     width: 450px;
     float:left;
     text-align: center;
-    font-family: 'MyriadPro-Semibold';
+    font-family: 'MyriadPro-Semibold', Arial;
     text-transform: uppercase;
     font-size: 26px;
     height: 60px;
@@ -1804,7 +1804,7 @@ padding-bottom: 25px;
 .error-title{
     font-size: 24px;
     color: #1c7fbb;
-    font-family: Myriad Pro, Lucida Sans, sans serif;
+    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
     text-transform: uppercase;
     padding-bottom: 25px;
 }
@@ -2021,14 +2021,14 @@ font-size: 26px;
 }
 .balloon .title{
   color:#6ea3cd !important; text-transform:uppercase !important;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
 }
 .balloon .link a{
   text-decoration:none !important; font-size:12px !important; color:#828282 !important;
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
 }
 .balloon .content,.balloon .address{
-      font-family: Calibri, Tahoma, sans-serif;
+      font-family: Calibri, Tahoma, sans-serif, Arial;
 }
 .balloon .link a:hover{
   text-decoration: underline;
@@ -2036,4 +2036,31 @@ font-size: 26px;
 .right-preg{
       float: right;
     width: 63%;
+}
+#invest-description{
+
+    float: left;
+    margin-left: 5px;
+    margin-top: 21px;
+    width: 83.5%;
+}
+.inform-window{
+  position: fixed;
+  height: 150px;
+  width: 80%;
+  background: white;
+  top: -200px;
+  left: 10%;
+  z-index: 5000;
+  border: 1px solid #117BB9;
+  text-align: center;
+}
+
+.inform-window p{
+
+      font-family: Calibri, Tahoma, sans-serif, Arial;
+      font-size: 22px;
+      color: #117BB9;
+      line-height: 150px;
+      text-transform: uppercase;
 }
