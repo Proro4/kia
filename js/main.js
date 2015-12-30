@@ -314,7 +314,7 @@ $('.lang .lang-but').on('click',function(){
 		$('.empty-block').css('height',slideHeight+10);
 		if($(window).width() <= 1440 ){		
 			$('.slider').css('height','750px')		
-			$('.empty-block').css('height','750px');		
+			$('.empty-block').css('height','750px');	
 		} 		
   		 if($(window).width() <= 1280 ){		
 			$('.slider').css('height','700px')		

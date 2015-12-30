@@ -2,17 +2,19 @@
 @media screen and (max-width: 1366px){
 	.map-link .map-block .all-links {width: 27%;}
 	  .map-link:after {  background: url(../img/arrow-top2.png) 55%;}
-	.slider .invest-project{right: -5%; bottom: 100px;	}
+	.slider .invest-project{right: -5%; bottom: 80px;	}
 	.slider .slide-text{	left: -5%;	bottom: 155px;	}
 	.arrow-to-top{	right: 0 !important;	bottom: 0 !important;}
 	.block-links-four,.block-links-three,.block-links-two,.block-links-one{width: 55px;}
 }
 @media screen and (max-width: 1225px){
+	.slider .invest-project{right: -5%; bottom: 60px;	}
 	.map-link .map-block .all-links {width: 29%;}
 	.wrapper .header-bottom{ background: rgba(24, 30, 40,1);}
 	/*.wrapper .slider{top: 155px;}*/
 }
 @media screen and (max-width: 1100px){
+	.slider .invest-project{right: -5%; bottom: 100px;	}
 	.invest-project .all-links{
 		margin: -40px auto;
 	}
