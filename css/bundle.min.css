@@ -448,7 +448,12 @@ bottom: 2px;}
     font-size: 30px;
     font-family: 'MyriadPro-Semibold';
     color: #013c5f;
-    margin-bottom: 25px; }
+    margin-bottom: 25px; 
+    width: 980px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
   .contant-block .ad-contest-block {
     position: relative;
     float: left;
