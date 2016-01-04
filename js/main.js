@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	$('.releases-block.press-page:eq(0)').css('padding-top','50px');
+	$('.releases-right .releases-block.press-page:eq(0)').css('padding-top','15px');
 
 	$('.delivery-block input[type="submit"]').on('click',function(){
 		$('.inform-window').animate({'top':'150px'},500);
@@ -297,8 +299,8 @@ $('.lang .lang-but').on('click',function(){
 		$('.menu-head-popup').click(function(){
 			if(
 		$('.menu-head-popup').height() == 48){
- 				$('.menu-head-popup').animate({'height':heightMenu},300);
- 			 	$('.wrapper .slider').animate({'margin-top':heightMenu},300);
+ 				$('.menu-head-popup').animate({'height':heightMenu+5},300);
+ 			 	$('.wrapper .slider').animate({'margin-top':heightMenu+5},300);
  			}
  			else{
 

@@ -116,7 +116,12 @@ blockquote, q {
           font-size: 14px;
           font-family: Calibri, Tahoma, sans-serif, Arial; ';
           text-decoration: none;
-          vertical-align: middle; }
+          vertical-align: middle; 
+          transition:.3s all;}
+          .wrapper .header-bottom .mini-width .lang .lang-select:hover{
+            text-decoration: underline;
+            color: #D2D2D2;
+          }
           .wrapper .header-bottom .mini-width .lang .lang-select img {
                 position: relative;
     top: 0px;
@@ -126,7 +131,7 @@ blockquote, q {
       .wrapper .header-bottom .mini-width .menu-head {
         position: absolute;
         text-align: center;
-        bottom: 0;
+        bottom: 2px;
         left: 0;
         width: 100%; }
         .wrapper .header-bottom .mini-width .menu-head>li {
@@ -159,9 +164,23 @@ blockquote, q {
               transition:0.2s all;
               background: #2f2f2f;
               height: 40px;}
+              .wrapper .header-bottom .mini-width .menu-head>li>ul>li>span{
+              color: white;
+              text-decoration: none; 
+              padding-left: 15px;
+              align-items: center ;
+              font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+              font-size: 14px;
+              display: flex;
+               width: 100%;
+              transition:0.2s all;
+              background: #2f2f2f;
+              height: 40px;}
                .wrapper .header-bottom .mini-width .menu-head>li>ul>li>a:hover{
-
-                color: #117bb9;
+                  color: #117bb9;
+               }
+               .wrapper .header-bottom .mini-width .menu-head>li>ul>li>span:hover{
+                  color: #117bb9;
                }
         .wrapper .header-bottom .mini-width .menu-head>li>span,
           .wrapper .header-bottom .mini-width .menu-head>li>a {
@@ -250,7 +269,12 @@ blockquote, q {
           text-transform: uppercase;
           float: left;
           text-align: left; }
+
+        .wrapper .slider .slide-text .slide-all-text .slide-text-block p{
+          width: 90%;
+        }
         .wrapper .slider .slide-text .slide-all-text .slide-text-block a{
+          width: 90%;
           color: white;
           text-decoration: none;
         }
@@ -307,55 +331,55 @@ blockquote, q {
       position: relative;
       top: 2px;
       left: 5px; }
-  .invest-project ul li .soc-ic:hover {
+  .invest-project ul .soc-ic a:hover {
     background: url(../img/icon/social-icon-h.png) no-repeat 20px, white; }
-  .invest-project ul li .med-ic:hover {
+  .invest-project ul .med-ic a:hover {
     background: url(../img/icon/med-icon-h.png) no-repeat 20px, white; }
-  .invest-project ul li .en-ic:hover {
+  .invest-project ul .en-ic a:hover {
     background: url(../img/icon/energy-icon-h.png) no-repeat 20px, white; }
-  .invest-project ul li .tran-ic:hover {
+  .invest-project ul .tran-ic a:hover {
     background: url(../img/icon/transport-icon-h.png) no-repeat 20px, white; }
-  .invest-project ul li .ek-ic:hover {
+  .invest-project ul .ek-ic a:hover {
     background: url(../img/icon/ecology-icon-h.png) no-repeat 20px, white; }
-  .invest-project ul li .elek-ic:hover {
+  .invest-project ul .elek-ic a:hover {
     background: url(../img/icon/electronic-icon-h.png) no-repeat 20px, white; }
-  .invest-project ul li .peap-ic:hover {
+  .invest-project ul .peap-ic a:hover {
     background: url(../img/icon/people-icon-h.png) no-repeat 20px, white; }
-  .invest-project ul li .sport-ic:hover {
+  .invest-project ul .sport-ic a:hover {
     background: url(../img/icon/sport-icon-h.png) no-repeat 20px; }
-  .invest-project ul li .house-ic:hover {
+  .invest-project ul .house-ic a:hover {
     background: url(../img/icon/house-icon-h.png) no-repeat 20px; }
-  .invest-project ul li .util-ic:hover {
+  .invest-project ul .util-ic a:hover {
     background: url(../img/icon/util-icon-h.png) no-repeat 20px; }
 
-.soc-ic {
+.soc-ic a{
   background: url(../img/icon/social-icon.png) no-repeat 20px; }
 
-.med-ic {
+.med-ic a{
   background: url(../img/icon/med-icon.png) no-repeat 20px; }
 
-.en-ic {
+.en-ic a{
   background: url(../img/icon/energy-icon.png) no-repeat 20px; }
 
-.tran-ic {
+.tran-ic a{
   background: url(../img/icon/transport-icon.png) no-repeat 20px; }
 
-.ek-ic {
+.ek-ic a{
   background: url(../img/icon/ecology-icon.png) no-repeat 20px; }
 
-.elek-ic {
+.elek-ic a{
   background: url(../img/icon/electronic-icon.png) no-repeat 20px; }
 
-.peap-ic {
+.peap-ic a{
   background: url(../img/icon/people-icon.png) no-repeat 20px; }
 
-.sport-ic {
+.sport-ic a{
   background: url(../img/icon/sport-icon.png) no-repeat 20px; }
 
-.house-ic {
+.house-ic a{
   background: url(../img/icon/house-icon.png) no-repeat 20px; }
 
-.util-ic {
+.util-ic a{
   background: url(../img/icon/util-icon.png) no-repeat 20px; }
 .search {
   display: inline-block;
@@ -861,7 +885,7 @@ height: 150px;}
     height: 47px;
     position: relative;
     right: 108px;
-    padding-top: 100px;
+    padding-top: 85px;
     -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
             transform: rotate(-90deg); 
@@ -1237,10 +1261,17 @@ overflow: hidden;}
     top: 0;
     height: 100%;
     width: 100%;
+    transition: 0.3s all;
+}
+.lang-but:hover{
+ background: rgba(0,0,0,.2);
 }
 .project-name{
-  padding-top: 25px;
+  padding-top: 45px;
   position: relative;
+}
+.project-title h1 {
+    display: inline-block;
 }
 .project-block {
   height: 140px;
@@ -1352,7 +1383,8 @@ float: right;
           .left-menu li{
 
             background: #f2f2f2;
-    width: 300px;
+    width: 285px;
+    padding-right: 15px;
           }
           .left-menu span,
           .left-menu a{
@@ -1373,10 +1405,6 @@ float: right;
     padding-right: 45px;
 
     background: url(../img/other/arrow-menu-h.png)no-repeat right center;
-          }
-          .left-menu li:hover{
-            
-            background: white;
           }
           .releases-right .releases-block.press-page img{
             width: 240px;
@@ -1431,7 +1459,8 @@ color: white;
 display: inline-block;
 padding: 2px 5px;
 margin-right: 10px;
-font-size: 16px;}
+font-size: 16px;
+vertical-align: top;}
 .date-preg{
 background:#013c5e;
 }
