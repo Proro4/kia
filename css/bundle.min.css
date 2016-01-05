@@ -1479,6 +1479,13 @@ background:#8dc63f;
   text-transform: uppercase;
   padding: 15px 0;
 }
+.right-preg h1{
+  display: block;
+  text-decoration: none;
+  color: #0072b4;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
 .right-preg p{
   font-size: 14px;
 }
