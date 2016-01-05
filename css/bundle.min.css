@@ -346,11 +346,11 @@ blockquote, q {
   .invest-project ul .peap-ic a:hover {
     background: url(../img/icon/people-icon-h.png) no-repeat 20px, white; }
   .invest-project ul .sport-ic a:hover {
-    background: url(../img/icon/sport-icon-h.png) no-repeat 20px; }
+    background: url(../img/icon/sport-icon-h.png) no-repeat 20px, white; }
   .invest-project ul .house-ic a:hover {
-    background: url(../img/icon/house-icon-h.png) no-repeat 20px; }
+    background: url(../img/icon/house-icon-h.png) no-repeat 20px, white; }
   .invest-project ul .util-ic a:hover {
-    background: url(../img/icon/util-icon-h.png) no-repeat 20px; }
+    background: url(../img/icon/util-icon-h.png) no-repeat 20px, white; }
 
 .soc-ic a{
   background: url(../img/icon/social-icon.png) no-repeat 20px; }
