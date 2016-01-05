@@ -108,7 +108,8 @@
   }
 	.info-nvest-text{font-size: 16px;}
 	.info-invest-left,.info-invest-center,.info-invest-right{height: 150px;}
-	.info-invest-left .info-nvest-text,.info-invest-right .info-nvest-text{text-align: center;}
+	.info-invest-left .info-nvest-text{text-align: left; vertical-align: middle; display: table-cell;}
+	.info-invest-right .info-nvest-text{text-align: right; vertical-align: middle; display: table-cell;}
 	.menu-map>li>ul{
 		padding-left: 25px;
 	}
@@ -240,7 +241,7 @@
 	.news-blocks .info-block .all-project{margin-top: 0; margin-bottom: 70px;}
 	.footer .Subscription input[type="submit"]{margin-top: 0;}
 	.footer ,.wrapper{
-		overflow:hidden;
+		overflow-x:hidden;
 	}
 	.text-page ul li{
 		
