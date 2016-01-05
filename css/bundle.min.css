@@ -1095,6 +1095,7 @@ overflow: hidden;}
     border: 3px solid #013c5e;
     display: block;}
       .all-links {
+        max-width: 300px;
         margin-top: 25px;
     min-height: 50px;
     text-decoration: none;
@@ -1589,9 +1590,6 @@ width: 50%;
   text-decoration: none;
   padding-top: 10px;
   width: 325px;
-}
-.news-detal-left .all-links{
-  width: 80%;
 }
 .news-detal-img{
   width: 100%;
