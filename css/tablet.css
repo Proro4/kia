@@ -14,6 +14,7 @@
 	/*.wrapper .slider{top: 155px;}*/
 }
 @media screen and (max-width: 1100px){
+	.arrow-to-top{	right: 0px !important;	bottom: 0px !important;}
 	.slider .invest-project{right: -5%; bottom: 100px;	}
 	.invest-project .all-links{
 		margin: -40px auto;
@@ -69,10 +70,10 @@
 			.footer .Subscription input[type="submit"]{
 				width: 182px; margin-left: 0; margin-top: 5px;
 			}
-	.util-ic,.house-ic,.sport-ic,.soc-ic,.med-ic,.en-ic,.tran-ic,.ek-ic,.elek-ic,.peap-ic{background: none;}
+	.util-ic a,.house-ic a,.sport-ic a,.soc-ic a,.med-ic a,.en-ic a,.tran-ic a,.ek-ic a,.elek-ic a,.peap-ic a{background: none;}
 
-.invest-project ul li .util-ic:hover,.invest-project ul li .house-ic:hover,.invest-project ul li .sport-ic:hover,.invest-project ul li .peap-ic:hover,.invest-project ul li .elek-ic:hover,.invest-project ul li .ek-ic:hover
-,.invest-project ul li .tran-ic:hover,.invest-project ul li .soc-ic:hover,.invest-project ul li .en-ic:hover,.invest-project ul li .med-ic:hover{background: none;}
+.invest-project ul .util-ic a:hover,.invest-project ul .house-ic a:hover,.invest-project ul .sport-ic a:hover,.invest-project ul .peap-ic a:hover,.invest-project ul .elek-ic a:hover,.invest-project ul .ek-ic a:hover
+,.invest-project ul .tran-ic a:hover,.invest-project ul .soc-ic a:hover,.invest-project ul .en-ic a:hover,.invest-project ul .med-ic a:hover:hover{background: none;}
 
 	  .map-link:after {  background: url(../img/arrow-top2-mini.png) 45%;}
 	  .search input[type='text']{margin-left: 100px;}
@@ -103,9 +104,10 @@
 	.slider .invest-project{left: 5%;}
 }
 
-@media screen and (max-width: 800px){.contant-block .cont-block-title{
-  	width: 600px;    font-size: 20px;
-  }
+@media screen and (max-width: 800px){
+	.contant-block .cont-block-title{
+   		width: 600px;    font-size: 20px;
+ 	 }
 	.info-nvest-text{font-size: 16px;}
 	.info-invest-left,.info-invest-center,.info-invest-right{height: 150px;}
 	.info-invest-left .info-nvest-text{text-align: left; vertical-align: middle; display: table-cell;}
@@ -192,7 +194,7 @@
 	.slide-text{display: none;}
 	.invest-project ul li a{text-align: center;}
 	.menu-head-popup a{padding: 15px 0px;}
-	.map-link .map-block .all-links,.news-blocks .info-block .all-links,.success-story .all-links, .contant-block .all-links{width: 80%;display: block; margin:15px auto; clear:both; float: none;}
+	.map-link .map-block .all-links,.news-blocks .info-block .all-links,.success-story .all-links, .contant-block .all-links{width: 90%;display: block; margin:15px auto; clear:both; float: none;}
  .contant-block.gray-block.arrow-gray.form-page{ top: 35px;}
 
 	.invest-project ul li span{width: 100%;
@@ -201,6 +203,9 @@
 }
 
 @media screen and (max-width: 720px){
+	.all-links{
+		padding: 0 !important;
+	}
 	.contant-block .cont-block-title{
   	width:90%;
 
@@ -320,6 +325,7 @@
     top: 50px;}
     .contant-block .ad-contest-block, .contant-block .contest-block, .news-blocks .info-block .info{padding-bottom: 20px;}
     .contant-block .ad-contest-block{width: 90%;}
+	.slider .invest-project{right: 0%;bottom: 31px; width: 100%;}
 }
 @media screen and (max-width: 460px){
 	.info-invest-left, .info-invest-center, .info-invest-right{height: 130px;}
@@ -354,6 +360,7 @@
 }
 }
 @media screen and (max-width: 410px){
+	.slider .invest-project{right: 0%;bottom: 0px; width: 100%;}
 	.contant-block .contest-block p {
     padding-left: 10px;
     width: 90%;

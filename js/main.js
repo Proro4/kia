@@ -1,5 +1,24 @@
 $(document).ready(function(){
 
+		var windowHeight = $(window).height();
+		var infoeight = $('.foot-info').height();
+		var heightCenter = (windowHeight /2) - (infoeight/2);
+		$('.foot-info').css({'top':heightCenter},300);
+
+	$('.Subscription input[type="submit"]').on('click',function(){
+		var bodyWidth = $('body').width();
+		var infoWidth = $('.foot-info').width();
+		var widthCenter = (bodyWidth /2) - (infoWidth/2);
+		$('.foot-info').animate({'right':widthCenter},300);
+		setTimeout(function () {
+			$('.foot-info').animate({'right':-1000},300);
+		}, 5000);
+	});
+
+	$('.foot-info-exit').on('click',function(){
+			$('.foot-info').animate({'right':-1000},300);
+	});
+
 	$('.releases-block.press-page:eq(0)').css('padding-top','50px');
 	$('.releases-right .releases-block.press-page:eq(0)').css('padding-top','15px');
 
