@@ -11,12 +11,12 @@ $(document).ready(function(){
 		var widthCenter = (bodyWidth /2) - (infoWidth/2);
 		$('.foot-info').animate({'right':widthCenter},400);
 		setTimeout(function () {
-			$('.foot-info').animate({'right':-1000},400);
+			$('.foot-info').animate({'right':-5000},400);
 		}, 5000);
 	});
 
 	$('.foot-info-exit').on('click',function(){
-			$('.foot-info').animate({'right':-1000},400);
+			$('.foot-info').animate({'right':-5000},400);
 	});
 
 	$('.releases-block.press-page:eq(0)').css('padding-top','50px');
