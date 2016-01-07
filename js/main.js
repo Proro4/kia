@@ -88,7 +88,7 @@ $(document).ready(function(){
 		$('.arrow-light-left').on('click',function(){
 		var imageLength = $('.left-preg img').length;
 			imgIndex = imgIndex-1;
-			if(imgIndex <= 0){
+			if(imgIndex <=-1){
 				imgIndex = imageLength-1;
 			}
 			imgLength = $('.left-preg img:eq('+imgIndex+')').attr('src');
