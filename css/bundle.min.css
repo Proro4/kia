@@ -2122,19 +2122,17 @@ font-size: 26px;
   border: 3px solid #013c5e;
   z-index: 10;
 }
-.error-info{
+.danger-info{
   color: red;
   text-transform: uppercase;
   text-align: center;
   line-height: 100px;
-  display: none;
 }
-.good-info{
+.success-info{
   cursor: black;
   text-transform: uppercase;
   text-align: center;
   line-height: 100px;
-  display: none;
 }
 .foot-info-exit{
   position: absolute;
