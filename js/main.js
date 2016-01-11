@@ -5,9 +5,8 @@ $(document).ready(function(){
 		var heightCenter = (windowHeight /2) - (infoeight/2);
 		$('.foot-info').css({'top':heightCenter},600);
 
-	$('.Subscription').submit(function(){
 
-	if($('.footer .Subscription input[type="email"]').val() != ''){ 
+	if($('.foot-info p').hasClass('danger-info') || $('.foot-info p').hasClass('success-info')){ 
 		var bodyWidth = $('body').width();
 		var infoWidth = $('.foot-info').width();
 		var widthCenter = (bodyWidth /2) - (infoWidth/2);
@@ -16,10 +15,7 @@ $(document).ready(function(){
 			$('.foot-info').animate({'right':-5000},600);
 		}, 3000);
 		}
-		else{
-		
-		}
-	})
+
 	$('.foot-info-exit').on('click',function(){
 			$('.foot-info').animate({'right':-5000},600);
 	});
