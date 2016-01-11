@@ -2115,7 +2115,7 @@ font-size: 26px;
 }
 .foot-info{
   position: fixed;
-  height: 100px;
+  min-height: 100px;
   width: 75%;
   background: white;
   right: -5000px;
