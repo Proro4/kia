@@ -170,9 +170,11 @@
 	.success-story .carusel-arrow-next{    height: 28px;width: 26px;background: url(../img/other/carusel-arrow-next.jpg) center;}
 	.wrapper .slider:after,.paginator,.slider-container{display: none;}
 	.invest-project .title-invest-project{position: static; transform:none;}
-	.slider .invest-project{left: 0; height: auto;}
+	.slider .invest-project{left: 0; height: auto;bottom: 37px; width: 100%; }
+	.slider .invest-project ul li{
+		border-bottom: 1px solid rgba(255,255,255,0.5);
+	}
 	.invest-project .all-project,.invest-project ul{position: static;}
-	.slider .invest-project{bottom: 37px; width: 100%;}
 	.invest-project ul li a{padding: 12px 0 12px 0px;}
 	.slider .slide-text{width: 365px;
 		height: 100px;}
@@ -183,7 +185,7 @@
 		.doc-block{padding-right: 15px;padding-left: 15px;}
    .news-blocks .info-block .info{padding-bottom: 20px; margin-bottom: 5px;}
 	.news-blocks .info-block .all-project{margin-top: 0; margin-bottom: 80px;}
-	.wrapper .header-bottom .mini-width .lang{width: 70px;
+	.wrapper .header-bottom .mini-width .lang{width: 70px; top:25px;
 		position: absolute;
 		left: 42%;
     float: none;

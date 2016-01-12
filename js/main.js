@@ -333,10 +333,10 @@ $('.lang .lang-but').on('click',function(){
 		$('.slider').css('height',slideImgHeight)//height empty-block
   		  var slideHeight = $('.slider ').height();
   		
-		$('.empty-block').css('height',slideHeight+10);
+		$('.empty-block').css('height',slideHeight-60);
 		if($(window).width() <= 1440 ){		
-			$('.slider').css('height','750px')		
-			$('.empty-block').css('height','750px');	
+			$('.slider').css('height','730px')		
+			$('.empty-block').css('height','730px');	
 		} 		
   		 if($(window).width() <= 1280 ){		
 			$('.slider').css('height','700px')		

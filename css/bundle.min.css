@@ -883,7 +883,7 @@ height: 150px;}
     font-size: 18px;
     text-transform: uppercase;
     display: inline-block;
-    width: 200px;
+    width: 210px;
     height: 47px;
     position: relative;
     right: 108px;
@@ -2145,4 +2145,7 @@ font-size: 26px;
 .map-off{
   opacity: 0;
   position: absolute;
+}
+.menu-head-popup li{
+  border-bottom: 1px solid rgba(255,255,255,0.7);
 }
