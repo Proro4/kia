@@ -847,7 +847,7 @@ bottom: 2px;}
 .block-links-one {
   position: fixed;
   left: 0;
-  top: 25%;
+  top: 15%;
   background: #013c5e; 
 width: 53px;
 height: 150px;}
@@ -951,7 +951,7 @@ height: 150px;}
   position: fixed;
   right: 0;
   height: 180px;
-  top: 25%;
+  top: 15%;
   background: #013c5e;
   width: 55px;
 }
