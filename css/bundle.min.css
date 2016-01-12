@@ -157,7 +157,7 @@ blockquote, q {
               text-decoration: none; 
               padding-left: 15px;
               align-items: center ;
-              font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+              font-family:Arial;
               font-size: 14px;
               display: flex;
                width: 100%;
@@ -169,7 +169,7 @@ blockquote, q {
               text-decoration: none; 
               padding-left: 15px;
               align-items: center ;
-              font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+              font-family: Arial;
               font-size: 14px;
               display: flex;
                width: 100%;
@@ -321,7 +321,7 @@ blockquote, q {
     color: black;
     text-decoration: none;
     font-size: 16px;
-    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+    font-family:Arial;
     text-transform: uppercase;
     width: 79%;
     padding-left: 75px;
@@ -389,7 +389,7 @@ blockquote, q {
     border: 1px solid #17181d;
     color: black;
     width: 175px;
-    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+    font-family: Arial;
     padding-right: 30px; }
   .search input[type='submit'] {
     cursor: pointer;
@@ -415,7 +415,7 @@ blockquote, q {
     font-size: 10px;
     text-align: center;
     padding-top: 65px;
-    font-family: Myriad Pro, Lucida Sans, sans serif, Arial; }
+    font-family: Arial; }
   .logo img {
     display: block;
     padding-top: 5px;
@@ -445,7 +445,7 @@ blockquote, q {
     display: inline-block;
     font-size: 12.29px;
     color: white;
-    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+    font-family: Arial;
     padding-left: 5px; }
 
 .logo2:hover img {
@@ -811,7 +811,7 @@ bottom: 2px;}
       width: 170px;
       height: 25px;
       color: black;
-      font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+      font-family:  Arial;
       float: left; }
     .footer .Subscription input[type="submit"] {
       cursor: pointer;
@@ -819,7 +819,7 @@ bottom: 2px;}
       height: 34px;
       margin-left: 2px;
       color: #dbdbdb;
-      font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+      font-family:Arial;
       border: 2px solid #dbdbdb;
       background: none; 
       transition:0.3s all;}
@@ -990,7 +990,7 @@ margin-top: 50px; text-align: center;
 border-bottom: 1px solid black;
 overflow: hidden;}
 .menu-head-popup .first-head-pop{
-    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+    font-family: Arial;
     padding: 15px 8px;
     float: left;
     background: url(../img/other/menu-popup.png)no-repeat;
@@ -1008,7 +1008,7 @@ overflow: hidden;}
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+    font-family:Arial;
 
 }
 .menu-head-popup a:hover {
@@ -1063,12 +1063,13 @@ overflow: hidden;}
       text-decoration: none; }
  .news-blocks .info-block .all-links {
     float: right;
-    width: 68%;
+    width: 60%;
     background: url(../img/other/big-arrow-menu.png) no-repeat 95% center;
     display: inline-block;
     color: #013c5e;
     border: 3px solid #013c5e;
     margin-right: 20px;
+    padding-right: 25px;
   }
      .news-blocks .info-block .all-links:hover{ color: white;
       border:3px solid #013c5e;
@@ -1847,7 +1848,7 @@ padding-bottom: 25px;
 .error-title{
     font-size: 24px;
     color: #1c7fbb;
-    font-family: Myriad Pro, Lucida Sans, sans serif, Arial;
+    font-family: Arial;
     text-transform: uppercase;
     padding-bottom: 25px;
 }
