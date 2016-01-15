@@ -13,7 +13,7 @@ body {
   line-height: 1;
   color: black;
   background: white;
-      font-family: Calibri, Tahoma, sans-serif, Arial; }
+      font-family:Arial; }
 
 table {
   position: relative;
@@ -320,7 +320,7 @@ blockquote, q {
     padding: 15px 0px;
     color: black;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     font-family:Arial;
     text-transform: uppercase;
     width: 79%;
@@ -522,7 +522,7 @@ bottom: 2px;}
       text-transform: uppercase;
       font-size: 18px;
       border:3px solid #013c5e;
-      font-family: Calibri, Tahoma, sans-serif, Arial;
+      font-family:Arial;
       margin-right: 20px;
       margin-bottom: 40px; }
     .contant-block .ad-contest-block .all-links:hover {
@@ -1105,8 +1105,8 @@ overflow: hidden;}
     text-align: center;
     line-height: 50px;
     text-transform: uppercase;
-    font-size: 18px;
-    font-family: Calibri, Tahoma, sans-serif, Arial;
+    font-size: 16px;
+    font-family:Arial;
     transition:0.3s all;
     margin-bottom: 40px;}
 
@@ -1142,7 +1142,7 @@ overflow: hidden;}
     bottom: 5px;
     }
     .text-page h2{
-      font-size: 24px;
+      font-size: 22px;
       font-weight: bold;
       color: #1c7fbb;
       text-transform:uppercase;
@@ -1401,7 +1401,7 @@ float: right;
           .left-menu a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 13px;
     color: black;
     display: table-cell;
     height: 42px;
@@ -1413,7 +1413,7 @@ float: right;
           }
           .left-menu span,
           .left-menu a:hover{
-    padding-right: 45px;
+    padding-right: 40px;
 
     background: url(../img/other/arrow-menu-h.png)no-repeat right center;
           }
@@ -1432,7 +1432,7 @@ float: right;
           .project-title{
             text-align: center;
             font-weight: bold;
-            font-size: 24px;
+            font-size: 22px;
             color: #117bb9;
             text-transform: uppercase;
           }
