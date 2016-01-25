@@ -40,8 +40,9 @@
     
 }
 @media screen and (max-width: 1000px){
-	.invest-project .all-links{
-
+	.contant-block{
+		bottom: auto;
+		top: 2px;
 	}
   .contant-block .cont-block-title{
   	width: 768px;
