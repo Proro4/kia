@@ -191,8 +191,7 @@ blockquote, q {
             color: white;
             text-decoration: none;
             text-transform: uppercase;
-            font: 12px Arial;
-            font: 13px Myriad Pro;}
+            font: 12px Arial;}
             .wrapper .header-bottom .mini-width .menu-head>li>span:hover,
           .wrapper .header-bottom .mini-width .menu-head>li>a.active-menu,
           .wrapper .header-bottom .mini-width .menu-head>li>a:hover {
@@ -263,9 +262,9 @@ blockquote, q {
         padding-top: 45px;
         position: relative; }
         .wrapper .slider .slide-text .slide-all-text .slide-text-block {
-          font-size: 17px;
+          font-size: 16px;
           color: white;
-          font-family: 'MyriadPro-Semibold', Arial;
+          font-family: Arial;
           text-transform: uppercase;
           float: left;
           text-align: left; }
@@ -310,8 +309,8 @@ blockquote, q {
     height: 53px;
     color: white;
     text-align: center;
-    font-size: 24px;
-    font-family: 'MyriadPro-Semibold', Arial;
+    font-size: 22px;
+    font-family: Arial;
     line-height: 57px; }
  
   .invest-project ul li span,
@@ -323,8 +322,9 @@ blockquote, q {
     font-size: 15px;
     font-family:Arial;
     text-transform: uppercase;
-    width: 79%;
+    width: 71%;
     padding-left: 75px;
+    padding-right: 7%;
     -webkit-transition: 0.4s all;
             transition: 0.4s all; }
    .invest-project ul li span img, .invest-project ul li a img {
@@ -977,6 +977,7 @@ height: 150px;}
   width: 43px;
   background: url(../img/other/arrow-top.png)no-repeat;
   cursor: pointer;
+  z-index: 10000000;
 }
 .arrow-top-block{
   /*-webkit-clip-path: polygon(534px 3px,400px 2px,470px 58px);*/
@@ -1140,6 +1141,8 @@ overflow: hidden;}
     background: #f2f2f2;
     position: relative;
     bottom: 5px;
+    line-height: 35px;
+    margin-bottom: 25px;
     }
     .text-page h2{
       font-size: 22px;
@@ -1222,6 +1225,7 @@ overflow: hidden;}
     height: 30px;
     width: 165px;
     text-align: right;
+    margin-bottom: 3px;
 }
 .twit {
     background: url(../img/icon-social.png)no-repeat 0 -60px, #00b6ec;
@@ -1330,6 +1334,7 @@ overflow: hidden;}
     width: 79%;
       font-family: Calibri, Tahoma, sans-serif, Arial;
       font-size: 14px;
+      margin-left: 0;
 }
 .date-block{
   float: left;
@@ -1469,7 +1474,7 @@ float: right;
 color: white;
 display: inline-block;
 padding: 2px 5px;
-margin-right: 10px;
+margin-left: 10px;
 font-size: 16px;
 vertical-align: top;}
 .date-preg{
@@ -2149,4 +2154,9 @@ font-size: 26px;
 }
 .menu-head-popup li{
   border-bottom: 1px solid rgba(255,255,255,0.7);
+}
+.project-text p{
+  margin-bottom: 10px;
+  line-height: 1.2;
+
 }
