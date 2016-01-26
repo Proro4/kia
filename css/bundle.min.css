@@ -2164,3 +2164,7 @@ font-size: 26px;
 .text-page.clearfix img {
     max-width: 100%;
 }
+div#jivo-iframe-container{
+    bottom: 45px !important;
+ height: 315px !important;
+}
