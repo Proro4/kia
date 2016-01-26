@@ -346,6 +346,10 @@ $('.lang .lang-but').on('click',function(){
 	 				$('.menu-head-popup').animate({'height':heightMenu+15},300);
 	 			 	$('.wrapper .slider').animate({'margin-top':heightMenu+15},300);
  				}
+ 				if($(window).width() <=350){
+	 				$('.menu-head-popup').animate({'height':heightMenu+18},300);
+	 			 	$('.wrapper .slider').animate({'margin-top':heightMenu+18},300);
+ 				}
  			}
  			else{
 

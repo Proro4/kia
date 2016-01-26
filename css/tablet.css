@@ -103,7 +103,10 @@
 	.releases-right{width: 99%; padding-left: 1%;}
 }
 @media screen and (max-width: 900px){
+.arrow-gray:before {
 
+  top: 99.6%;
+}
 	.slider .slide-text{width: 415px; left: 45%;}
 	.slider .invest-project{left: 5%;}
 }
@@ -306,6 +309,9 @@
    	}
 }
 @media screen and (max-width: 585px){
+	.wrapper .header-bottom .mini-width .lang{
+		top: 19px;
+	}
 	.wrapper .header .tel{background-position-x:15px;}
 	.print-link{
 		display: none;
@@ -345,6 +351,9 @@
 	.slider .invest-project{right: 0%;bottom: 31px; width: 100%;}
 }
 @media screen and (max-width: 460px){
+	.slider .invest-project{
+		bottom: 15px;
+	}
 	.project-block p{margin-left: 5px;}
 	.info-invest-left, .info-invest-center, .info-invest-right{height: 130px;}
 	.info-nvest-text{font-size: 14px; padding-top: 20px;}
@@ -403,6 +412,9 @@
     .success-story .all-project,.news-blocks .info-block .all-project,.contant-block .all-project{margin-right: 14%;}
 }
 @media screen and (max-width: 410px){
+	.slider .invest-project{
+		bottom: 0px;
+	}
 	.search input[type='text']{width: 78%;}
 	.success-story .all-project,.news-blocks .info-block .all-project, .contant-block .all-project{margin-right: 8%;}
 }
