@@ -350,6 +350,10 @@ $('.lang .lang-but').on('click',function(){
 	 				$('.menu-head-popup').animate({'height':heightMenu+18},300);
 	 			 	$('.wrapper .slider').animate({'margin-top':heightMenu+18},300);
  				}
+ 				if($(window).width() <=320){
+	 				$('.menu-head-popup').animate({'height':heightMenu+25},300);
+	 			 	$('.wrapper .slider').animate({'margin-top':heightMenu+25},300);
+ 				}
  			}
  			else{
 

@@ -995,7 +995,7 @@ overflow: hidden;}
     font-family: Arial;
     padding: 15px 8px;
     float: left;
-    background: url(../img/other/menu-popup.png)no-repeat;
+    background: url(../img/other/menu-popup.png)no-repeat 22px 14px;
     cursor: pointer;
     padding-left: 50px;
     width: 100%;
