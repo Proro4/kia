@@ -463,6 +463,7 @@ blockquote, q {
   width: 100%;
   min-height: 100px;
   position: relative; 
+  margin-bottom: 25px;
 bottom: 2px;}
 
   .contant-block .cont-block-title {
