@@ -979,7 +979,7 @@ height: 150px;}
   width: 43px;
   background: url(../img/other/arrow-top.png)no-repeat;
   cursor: pointer;
-  z-index: 10000000;
+  z-index: 100000;
 }
 .arrow-top-block{
   /*-webkit-clip-path: polygon(534px 3px,400px 2px,470px 58px);*/
