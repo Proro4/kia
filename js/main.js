@@ -1,7 +1,11 @@
 $(document).ready(function(){
+
+
 		setTimeout(function(){
-			$('jivo-iframe-container-right.jivo_shadow.jivo_rounded_corners.jivo_gradient.jivo_3d_effect.jivo_border.jivo_3px_border').addClass('noprint')
-		},1000)
+			$('div#jivo-iframe-container').addClass('noprint')
+			if($(window).width <= 800)
+				$('div#jivo-iframe-container').css('display','none');
+		},5000)
 
 
 		var windowHeight = $(window).height();
