@@ -2165,3 +2165,13 @@ font-size: 26px;
 .text-page.clearfix img {
     max-width: 100%;
 }
+.nodisplay{
+  display: none !important;
+  position: fixed !important;
+  top:-3000px !important;
+  height: 0 !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}

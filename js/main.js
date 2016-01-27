@@ -4,7 +4,7 @@ $(document).ready(function(){
 		setTimeout(function(){
 			$('div#jivo-iframe-container').addClass('noprint')
 			if($(window).width <= 800)
-				$('div#jivo-iframe-container').css('display','none !important');
+				$('div#jivo-iframe-container').addClass('nodisplay');
 		},5000)
 
 
@@ -456,3 +456,7 @@ $(window).resize(function(){
 	}
 })
 
+$(window).resize(function(){
+			if($(window).width <= 800) $('div#jivo-iframe-container').addClass('nodisplay');
+
+})
