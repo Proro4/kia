@@ -110,6 +110,10 @@
 }
 
 @media screen and (max-width: 800px){
+	.arrow-to-top{ right: 0 !important; bottom: 0!important;}
+	 div#jivo-iframe-container{
+	 				display: none;
+	 		  }       
 	.wrapper .header .info{background-position-x:5px;}
 	.cos-link{
 
@@ -415,4 +419,13 @@
 	}
 	.search input[type='text']{width: 78%;}
 	.success-story .all-project,.news-blocks .info-block .all-project, .contant-block .all-project{margin-right: 8%;}
+}
+@media screen and (max-width: 390px){
+	.slider .invest-project {
+    bottom: -5px;
+}
+.menu-head-popup {
+    position: relative;
+    bottom: 5px;
+}
 }
