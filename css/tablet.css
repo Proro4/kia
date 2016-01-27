@@ -110,7 +110,7 @@
 }
 
 @media screen and (max-width: 800px){
-	.arrow-to-top{ right: 0 !important; bottom: 0!important; z-index: 10000000ж}
+	.arrow-to-top{ right: 0 !important; bottom: 0!important; z-index: 100000000;}
 	 div#jivo-iframe-container{
 	 				display: none;
 	 		  }       
