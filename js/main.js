@@ -4,7 +4,7 @@ $(document).ready(function(){
 		setTimeout(function(){
 			$('div#jivo-iframe-container').addClass('noprint')
 			if($(window).width <= 800)
-				$('div#jivo-iframe-container').css('display','none');
+				$('div#jivo-iframe-container').css('display','none !important');
 		},5000)
 
 
