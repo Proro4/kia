@@ -591,7 +591,8 @@ bottom: 2px;}
   height: 475px;
   background: url(../img/map.jpg);
   background-size: contain;
-  background-attachment: fixed; }
+  background-attachment: fixed; 
+    bottom: 25px;}
   .map-link:after{
     position: absolute;
       content:'';
@@ -2163,8 +2164,4 @@ font-size: 26px;
 }
 .text-page.clearfix img {
     max-width: 100%;
-}
-div#jivo-iframe-container{
-    bottom: 45px !important;
- height: 315px !important;
 }

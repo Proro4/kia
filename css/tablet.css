@@ -5,7 +5,6 @@
 	.slider .invest-project{right: -5%; bottom: 80px;	}
 	.slider .slide-text{	left: -5%;	bottom: 155px;	}
 	.block-links-four,.block-links-three,.block-links-two,.block-links-one{width: 55px;}
-	.arrow-to-top{	right: 40px !important;	bottom: 40px !important;}
 }
 @media screen and (max-width: 1225px){
 	.slider .invest-project{right: -5%; bottom: 60px;	}
