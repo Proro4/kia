@@ -3,8 +3,7 @@ $(document).ready(function(){
 
 		setTimeout(function(){
 			$('div#jivo-iframe-container').addClass('noprint')
-			if($(window).width <= 800)
-				$('div#jivo-iframe-container').addClass('nodisplay');
+			
 		},5000)
 
 
@@ -454,9 +453,4 @@ $(window).resize(function(){
 	}if($(window).width() <= 393){
 		$('.slider').css('height','514px');
 	}
-})
-
-$(window).resize(function(){
-			if($(window).width <= 800) $('div#jivo-iframe-container').addClass('nodisplay');
-
 })
