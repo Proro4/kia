@@ -2165,3 +2165,9 @@ font-size: 26px;
 .text-page.clearfix img {
     max-width: 100%;
 }
+.footer a{
+  color: white;
+}
+.footer a:hover{
+  text-decoration: none;
+}
