@@ -1,5 +1,12 @@
 $(document).ready(function(){
-
+		//info-block
+		var maxHeight = 0;
+		$('.info-block').each(function(){
+			if($(this).height() > maxHeight){
+				maxHeight = $(this).height();
+			}
+		});
+		$('.info-block').css('height',maxHeight);
 
 		setTimeout(function(){
 			$('div#jivo-iframe-container').addClass('noprint')
@@ -395,9 +402,11 @@ $('.lang .lang-but').on('click',function(){
 	}
 	if($(window).width() <= 800){
 		$('.info-invest-page:eq(0)').css({'margin-top':'55px'})
-			$('.slider div').removeClass('containers');
+			$('.header-contant').removeClass('containers');
 			$('.invest-project ul li span img').remove()
 		$('.empty-block').css('height','515px');
+	}else{
+			$('.header-contant').addClass('containers');
 	}
 	if($(window).width() <= 703){
 		$('.slider').css('height','527px');
@@ -443,8 +452,10 @@ $(window).resize(function(){
 
 	}
 	if($(window).width() <= 800){
-			$('.slider div').removeClass('containers');
+			$('.header-contant').removeClass('containers');
 		$('.empty-block').css('height','515px');
+	}else{
+			$('.header-contant').addClass('containers');
 	}
 	if($(window).width() <= 703){
 		$('.slider').css('height','527px');

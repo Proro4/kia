@@ -631,7 +631,9 @@ bottom: 2px;}
     text-transform: uppercase;
     margin-bottom: 35px; }
   .news-blocks .info-block {
+    position: relative;
     width: 50%;
+    padding-bottom: 100px;
     float: left; }
     
      .info {
@@ -1073,6 +1075,10 @@ overflow: hidden;}
     border: 3px solid #013c5e;
     margin-right: 20px;
     padding-right: 25px;
+
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
   }
      .news-blocks .info-block .all-links:hover{ color: white;
       border:3px solid #013c5e;
