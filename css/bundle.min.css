@@ -2177,3 +2177,7 @@ font-size: 26px;
 .footer a:hover{
   text-decoration: none;
 }
+table#list-of-counties tr td:first-child {
+    width: 295px;
+    display: inline-block;
+}
