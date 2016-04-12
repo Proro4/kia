@@ -38,6 +38,9 @@
     
 }
 @media screen and (max-width: 1000px){
+	.news-link-block a{
+		width: auto;
+	}
 	.contant-block{
 		bottom: auto;
 		top: 2px;
@@ -92,7 +95,7 @@
 	  .contant-block .contest-block>.contest-link{width: 65%;}
 	  .slider .slide-text{left: 40%;}
 	  .footer i{right: 270px;}
-	.news-blocks .info-block .all-links,.map-link .map-block .all-links,.invest-project .all-links,.success-story .all-links, .contant-block .all-links,.contant-block .ad-contest-block .all-links{background:none;margin-right: 50px;}
+	.news-blocks .info-block .all-links,.invest-project .all-links,.success-story .all-links, .contant-block .all-links,.contant-block .ad-contest-block .all-links{background:none;margin-right: 50px;}
 	.news-blocks .info-block .all-links:hover,.invest-project .all-links:hover,.success-story .all-links:hover, .contant-block .all-links:hover,.contant-block .ad-contest-block .all-links:hover{background:#013c5e;}
 	.map-link .map-block .all-links:hover{background: white;}
 	.contant-block.gray-block.arrow-gray.form-page{
@@ -157,7 +160,7 @@
 .news-blocks .info-block{width: 100%;}
 .wrapper .header{	height: 65px;}
 .wrapper .header .tel,.wrapper .header .info{width: 155px;}
-	.containers{width: 600px;}
+	.containers{width: 600px; min-height: 40px;}
 	.wrapper .header .head-links{float: none;     width: 28%; margin-top: 40px;
     text-align: center; padding: 0;
     display: inline-block;}
@@ -218,6 +221,25 @@
 }
 
 @media screen and (max-width: 720px){
+	.footer:after{
+		content: '';
+		background: #353535;
+		height: 15px;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: -15px;
+	}
+	 .news-blocks .info-block .all-links {
+		padding-left: 10px;
+	 }
+	#list-of-counties{
+		position: relative;
+		top: 50px;
+	}
+	table#list-of-counties tr td:first-child {
+	    width: 15px !important;
+	}
 	.project-block p{
 		width: 70%;
 	}

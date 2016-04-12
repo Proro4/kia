@@ -1,4 +1,10 @@
 $(document).ready(function(){
+		$('#testMap').parent().css({'position':'relative','top','10px'});
+
+		// tables map
+		$('#list-of-counties tr ').each(function(){
+			$(this).find('td:eq(0)').css({'width':'285px','display':'inline-block'})
+		})
 		//info-block
 		var maxHeight = 0;
 		$('.info-block').each(function(){

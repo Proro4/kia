@@ -1068,7 +1068,7 @@ overflow: hidden;}
       text-decoration: none; }
  .news-blocks .info-block .all-links {
     float: right;
-    width: 60%;
+    min-width: 60%;
     background: url(../img/other/big-arrow-menu.png) no-repeat 95% center;
     display: inline-block;
     color: #013c5e;
@@ -1792,7 +1792,8 @@ margin: 25px 0;
 .down-link{
  border:3px solid #013c5e;
  color:#013c5e;
- background: url(../img/other/big-arrow-menu.png)no-repeat 90% center;
+ background: url(../img/other/big-arrow-menu.png)no-repeat 95% center;
+ padding-right: 10px;
 }
 
 .down-link:hover{
