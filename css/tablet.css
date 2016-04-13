@@ -168,7 +168,8 @@
 .wrapper .header{	height: 65px;}
 .wrapper .header .tel,.wrapper .header .info{width: 155px;}
 	.containers{width: 600px; min-height: 40px;}
-	.wrapper .header .head-links{float: none;     width: 28%; margin-top: 40px;
+	.wrapper .header .head-links{float: none;     width: 13%; margin-top: 35px;
+	line-height: 14px;
     text-align: center; padding: 0;
     display: inline-block;}
 	.wrapper .header-bottom .mini-width .lang,.search{width: 100%; text-align: center;}
@@ -224,8 +225,13 @@
 
 	.invest-project ul li span{width: 100%;
     text-align: center;
-    padding:12px 0 12px 0;}
+    padding:12px 0 12px 0;
+	}
+	.containers.not-c{
+		width: 100%;
+	}
 }
+
 
 @media screen and (max-width: 720px){
 	#testMap{
