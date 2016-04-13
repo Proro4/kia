@@ -1,5 +1,5 @@
 $(document).ready(function(){
-		$('#testMap').parent().css({'position':'relative','top','10px'});
+		$('#testMap').parent().css({'position':'relative','top':'10px'});
 
 		// tables map
 		$('#list-of-counties tr ').each(function(){
