@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+			
 		//liks-head	
 		$('.head-links:eq(2),.head-links:eq(3)').addClass('no-800');
 		//map
@@ -398,7 +398,7 @@ $('.lang .lang-but').on('click',function(){
 		}  		  		  
 		if($(window).width() <= 1150 ){		
 			$('.slider').css('height','680px')		
-			$('.empty-block').css('height','600px');		
+			$('.empty-block').css('height','550px');		
 		} 		
 		if($(window).width() <= 1024 ){		
 			$('.slider').css('height','620px')		
@@ -408,7 +408,7 @@ $('.lang .lang-but').on('click',function(){
   		  
 	if($(window).width() <= 925 ){
 		$('.slider').css('height','600px')
-		$('.empty-block').css('height','600px');
+		$('.empty-block').css('height','550px');
 
 	}
 	if($(window).width() <= 800){
@@ -459,7 +459,7 @@ $(window).resize(function(){
   		  
 	if($(window).width() <= 925 ){
 		$('.slider').css('height','600px')
-		$('.empty-block').css('height','600px');
+		$('.empty-block').css('height','550px');
 
 	}
 	if($(window).width() <= 800){

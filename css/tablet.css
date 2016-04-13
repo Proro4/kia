@@ -106,10 +106,10 @@
 @media screen and (max-width: 900px){
 .arrow-gray:before {
 
-  top: 98%;
+  top: 99.6%;
 }
 	.slider .slide-text{width: 415px; left: 45%;}
-	.slider .invest-project{left: 5%;}
+	.slider .invest-project{left: 5%; bottom: 145px;}
 }
 
 @media screen and (max-width: 800px){
