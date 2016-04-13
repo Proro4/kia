@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$('.head-links:eq(2),.head-links:eq(3)').addClass('no-800');
 		//map
 
-		$('#testMap').parent().css({'position':'relative','top':'10px'});
+		// $('#testMap').parent().css({'position':'relative','top':'10px'});
 
 		// tables map
 		$('#list-of-counties tr ').each(function(){
