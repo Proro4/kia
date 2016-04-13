@@ -113,6 +113,13 @@
 }
 
 @media screen and (max-width: 800px){
+	.head-links:nth-child(3){
+		display: none;
+	}
+	.head-links:nth-child(4){
+		display: none;
+	}
+
 	.arrow-to-top{ right: 0 !important; bottom: 0!important; z-index: 100000000;}
 	 div#jivo-iframe-container{
 	 				display: none;
@@ -221,6 +228,17 @@
 }
 
 @media screen and (max-width: 720px){
+	#testMap{
+		overflow-x:visible; 
+	}
+	#testMap:after{
+	    content: '';
+	    width: 100%;
+	    height: 15px;
+	    background: #353535;
+	    position: absolute;
+	    bottom: -15px;
+	}
 	.footer:after{
 		content: '';
 		background: #353535;
