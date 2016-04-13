@@ -1,4 +1,9 @@
 $(document).ready(function(){
+
+		//liks-head	
+		$('.head-links:eq(2),.head-links:eq(3)').addClass('no-800');
+		//map
+
 		$('#testMap').parent().css({'position':'relative','top':'10px'});
 
 		// tables map

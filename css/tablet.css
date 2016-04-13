@@ -75,7 +75,7 @@
 			.footer .Subscription input[type="submit"]{
 				width: 182px; margin-left: 0; margin-top: 5px;
 			}
-	.util-ic a,.house-ic a,.sport-ic a,.soc-ic a,.med-ic a,.en-ic a,.tran-ic a,.ek-ic a,.elek-ic a,.peap-ic a{background: none;}
+	.util-ic a,.house-ic a,.sport-ic a,.soc-ic a,.med-ic a,.en-ic a,.tran-ic a,.ek-ic a,.elek-ic a,.peap-ic a,.wrapper .invest-project ul li a{background: none;}
 
 .invest-project ul .util-ic a:hover,.invest-project ul .house-ic a:hover,.invest-project ul .sport-ic a:hover,.invest-project ul .peap-ic a:hover,.invest-project ul .elek-ic a:hover,.invest-project ul .ek-ic a:hover
 ,.invest-project ul .tran-ic a:hover,.invest-project ul .soc-ic a:hover,.invest-project ul .en-ic a:hover,.invest-project ul .med-ic a:hover:hover{background: none;}
@@ -106,17 +106,14 @@
 @media screen and (max-width: 900px){
 .arrow-gray:before {
 
-  top: 99.6%;
+  top: 98%;
 }
 	.slider .slide-text{width: 415px; left: 45%;}
 	.slider .invest-project{left: 5%;}
 }
 
 @media screen and (max-width: 800px){
-	.head-links:nth-child(3){
-		display: none;
-	}
-	.head-links:nth-child(4){
+	.wrapper .header .head-links.no-800{
 		display: none;
 	}
 
@@ -168,7 +165,7 @@
 .wrapper .header{	height: 65px;}
 .wrapper .header .tel,.wrapper .header .info{width: 155px;}
 	.containers{width: 600px; min-height: 40px;}
-	.wrapper .header .head-links{float: none;     width: 13%; margin-top: 35px;
+	.wrapper .header .head-links{float: none;     width: 31%; margin-top: 35px;
 	line-height: 14px;
     text-align: center; padding: 0;
     display: inline-block;}
