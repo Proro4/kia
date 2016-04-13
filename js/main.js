@@ -398,7 +398,7 @@ $('.lang .lang-but').on('click',function(){
 		}  		  		  
 		if($(window).width() <= 1150 ){		
 			$('.slider').css('height','680px')		
-			$('.empty-block').css('height','550px');		
+			$('.empty-block').css('height','590px');		
 		} 		
 		if($(window).width() <= 1024 ){		
 			$('.slider').css('height','620px')		
@@ -446,11 +446,11 @@ $(window).resize(function(){
 		} 		
   	 if($(window).width() <= 1280 ){		
 			$('.slider').css('height','700px')		
-			$('.empty-block').css('height','600px');		
+			$('.empty-block').css('height','630px');		
 		} 		
 		if($(window).width() <= 1150 ){		
 			$('.slider').css('height','680px')		
-			$('.empty-block').css('height','600px');		
+			$('.empty-block').css('height','620px');		
 		} 		
 		if($(window).width() <= 1024 ){		
 			$('.slider').css('height','620px')		
