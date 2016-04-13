@@ -2007,9 +2007,6 @@ font-size: 26px;
   padding-bottom: 25px;
   padding-right: 5px;
 }
-.menu-map>li>ul>li{
-  padding: 5px 0;
-}
 .menu-map>li:first-child{
   padding-top: 25px;
 }
