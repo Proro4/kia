@@ -1,0 +1,49 @@
+.wrapper .header-bottom .mini-width .menu-head > li > ul > li > a{
+	-webkit-transition: 0.2s all;
+     -moz-transition: 0.2s all;
+     -o-transition: 0.2s all;    
+}
+.all-links {
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+	-o-transition: 0.3s all;
+}
+.wrapper .header-bottom .mini-width .menu-head>li>ul{
+	background: #2f2f2f;
+    padding-top: 10px;
+}
+.wrapper .header-bottom .mini-width .menu-head>li>ul>li>a{
+	display: block;
+}
+@media screen and (max-width: 1100px){
+	.invest-project .title-invest-project{
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+	}
+}
+@media screen and (max-width: 1000px){
+	.invest-project .all-links{
+	    margin-right: 10px;
+	}
+}
+@media screen and (max-width: 800px){
+	.invest-project .title-invest-project {
+	    position: static;
+	    -webkit-transform: none;
+	    -moz-transform: none;
+	    -o-transform: none;
+	}
+}
+
+@media screen and (max-width: 720px){
+	.wrapper .header-bottom .mini-width .lang .lang-select{
+		display: block;
+		margin: 5px;
+		background-color: black;
+	}
+	.wrapper .header-bottom .mini-width .lang .lang-select:last-child{
+		display: block;
+		margin-top: 5px;
+	}
+}
