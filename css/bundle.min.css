@@ -1233,22 +1233,22 @@ overflow: hidden;}
 .cos-link li {
     display: inline-block;
     height: 30px;
-    width: 100px;
+    width: 60px;
     text-align: right;
     margin-bottom: 3px;
 }
 .twit {
-    background: url(../img/icon-social.png)no-repeat 0 -60px, #00b6ec;
+    background: url(../img/icon-social.png)no-repeat center -60px, #00b6ec;
 }
 .fb {
-    background: url(../img/icon-social.png)no-repeat 0 0px, #425497;
+    background: url(../img/icon-social.png)no-repeat center 0px, #425497;
 }
 .vk {
-    background: url(../img/icon-social.png)no-repeat 0 -90px, #536e8f;
+    background: url(../img/icon-social.png)no-repeat center -90px, #536e8f;
 }
 
 .gplus {
-    background: url(../img/icon-social.png)no-repeat 0 -30px, #de4241;
+    background: url(../img/icon-social.png)no-repeat center -30px, #de4241;
 }
 
 .cos-link a {
@@ -1270,7 +1270,7 @@ overflow: hidden;}
 .cos-link li a span {
     color: #013c5e;
     transition: 0.3s all;
-    width: 60px;
+    width: 0px;
     height: 24px;
     margin-top: 3px;
     display: inline-block;
